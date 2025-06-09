@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MovieTranslationWebsite.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9078c339fdcf857348864ca9fc8aba5557d965b6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6336a50fc6859588dd4e08d91d12f0beff534b81")]
 [assembly: System.Reflection.AssemblyProductAttribute("MovieTranslationWebsite.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MovieTranslationWebsite.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
