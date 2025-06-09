@@ -1,4 +1,4 @@
-﻿namespace Film_website.Models.Entities
+﻿namespace Film_website.Models
 {
     public class Translation
     {

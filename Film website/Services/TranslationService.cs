@@ -1,4 +1,4 @@
-﻿namespace Film_website.Services.Implementations
+﻿namespace Film_website.Services
 {
     public class TranslationService
     {
