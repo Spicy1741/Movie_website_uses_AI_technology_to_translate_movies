@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "quMr7s3w5Qg=",
+  "dgSpecHash": "1SKrIwKuDLw=",
   "success": true,
-  "projectFilePath": "D:\\GIT\\Film website\\MovieTranslationWebsite.Core\\MovieTranslationWebsite.Core.csproj",
+  "projectFilePath": "D:\\GIT\\Movie_website_uses_AI_technology_to_translate_movies\\MovieTranslationWebsite.Core\\MovieTranslationWebsite.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nghia\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\nghia\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
