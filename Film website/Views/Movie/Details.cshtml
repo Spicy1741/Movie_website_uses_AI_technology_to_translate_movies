@@ -1,6 +1,189 @@
-﻿namespace Film_website.Views.Movie
-{
-    public class Details
-    {
-    }
+﻿@{
+    ViewData["Title"] = "Movie Details - CineHub";
 }
+
+<link rel="stylesheet" href="~/css/styles.css">
+
+<!-- Side Navigation -->
+<div class="side-nav" id="sideNav">
+    <div class="side-nav-header">
+        <div class="side-nav-avatar">👤</div>
+        <div class="side-nav-name" id="sideNavName">Welcome, User</div>
+    </div>
+    <nav class="side-nav-menu">
+        <a asp-controller="Home" asp-action="Index" class="side-nav-item">
+            <div class="side-nav-icon">🏠</div>
+            <div class="side-nav-text">Home</div>
+        </a>
+        <a href="#recent" class="side-nav-item" onclick="showRecent()">
+            <div class="side-nav-icon">🕒</div>
+            <div class="side-nav-text">Recent</div>
+        </a>
+        <a asp-controller="Home" asp-action="Index" asp-fragment="favorites" class="side-nav-item">
+            <div class="side-nav-icon">♥️</div>
+            <div class="side-nav-text">Favorites</div>
+        </a>
+        <a asp-controller="Home" asp-action="Index" asp-fragment="profile" class="side-nav-item">
+            <div class="side-nav-icon">👤</div>
+            <div class="side-nav-text">Account</div>
+        </a>
+        <a href="#theme" class="side-nav-item" onclick="toggleTheme()">
+            <div class="side-nav-icon">🎨</div>
+            <div class="side-nav-text">Theme</div>
+        </a>
+        <a asp-controller="Home" asp-action="Index" asp-fragment="contact" class="side-nav-item">
+            <div class="side-nav-icon">📞</div>
+            <div class="side-nav-text">Contact</div>
+        </a>
+    </nav>
+</div>
+
+<!-- Side Navigation Overlay -->
+<div class="side-nav-overlay" id="sideNavOverlay"></div>
+
+<!-- Navigation -->
+<nav class="navbar">
+    <div class="nav-container">
+        <div class="nav-left">
+            <button class="menu-toggle" onclick="toggleSideNav()">☰</button>
+            <div class="nav-logo">
+                <h2>CineHub</h2>
+            </div>
+        </div>
+        <div class="nav-links">
+            <a asp-controller="Home" asp-action="Index" class="nav-link">Home</a>
+            <a asp-controller="Home" asp-action="Index" asp-fragment="favorites" class="nav-link">Favorites</a>
+            <a asp-controller="Home" asp-action="Index" asp-fragment="contact" class="nav-link">Contact</a>
+        </div>
+        <div class="nav-actions">
+            <button class="search-btn" onclick="toggleSearch()">🔍</button>
+            <button class="theme-btn" onclick="toggleTheme()">🌙</button>
+            <button class="profile-btn" onclick="toggleProfile()">👤</button>
+        </div>
+    </div>
+</nav>
+
+<!-- Search Bar -->
+<div class="search-container" id="searchContainer">
+    <div class="search-box">
+        <input type="text" placeholder="Search movies..." id="searchInput">
+        <div class="search-filters">
+            <select id="categoryFilter">
+                <option value="">Category</option>
+                <option value="action">Action</option>
+                <option value="drama">Drama</option>
+                <option value="comedy">Comedy</option>
+                <option value="thriller">Thriller</option>
+            </select>
+            <select id="timeFilter">
+                <option value="">Time</option>
+                <option value="2024">2024</option>
+                <option value="2023">2023</option>
+                <option value="2022">2022</option>
+            </select>
+            <select id="languageFilter">
+                <option value="">Language</option>
+                <option value="english">English</option>
+                <option value="spanish">Spanish</option>
+                <option value="french">French</option>
+            </select>
+            <select id="scoreFilter">
+                <option value="">Score</option>
+                <option value="9+">9.0+</option>
+                <option value="8+">8.0+</option>
+                <option value="7+">7.0+</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+<!-- Main Content -->
+<main id="mainContent">
+    <!-- Movie Details Section -->
+    <section class="section active">
+        <div class="movie-detail-section">
+            <h2 class="section-title" id="movieTitle">Movie Details</h2>
+            <div class="movie-detail-container">
+                <div class="movie-trailer">
+                    <div class="trailer-placeholder" id="trailerPlaceholder">Trailer</div>
+                    <div class="trailer-controls">
+                        <button class="control-btn">act 1</button>
+                        <button class="control-btn">act 2</button>
+                        <button class="control-btn">act 3</button>
+                        <button class="control-btn">act 4</button>
+                    </div>
+                </div>
+                <div class="movie-info">
+                    <div class="movie-poster-large">
+                        <div class="poster-placeholder" id="posterPlaceholder">Poster</div>
+                        <div class="movie-score" id="movieScore">9.2</div>
+                    </div>
+                    <div class="movie-categories" id="movieCategories">
+                        <span class="category-tag">Action</span>
+                        <span class="category-tag">Drama</span>
+                        <span class="category-tag">Thriller</span>
+                        <span class="category-tag">Adventure</span>
+                    </div>
+                    <div class="movie-summary">
+                        <p id="movieSummary">An epic tale of adventure, courage, and determination. This masterpiece takes you on a journey through stunning visuals and compelling storytelling that will keep you on the edge of your seat from beginning to end.</p>
+                    </div>
+                    <div class="movie-actions-detail">
+                        <button class="btn-primary" onclick="addToFavorites(this)">Favorite</button>
+                        <button class="btn-secondary" onclick="ignoreMovie()">Ignore</button>
+                        <button class="btn-primary" onclick="watchMovie()">Watch</button>
+                        <button class="btn-secondary" onclick="rateMovie()">Rate</button>
+                    </div>
+                </div>
+            </div>
+            <div class="comments-section">
+                <h3>Comments</h3>
+                <div class="comments-list" id="commentsList">
+                    <div class="comment-item">
+                        <div class="comment-avatar">User</div>
+                        <div class="comment-content">Amazing cinematography and incredible storyline! Definitely worth watching.</div>
+                    </div>
+                    <div class="comment-item">
+                        <div class="comment-avatar">Alex</div>
+                        <div class="comment-content">One of the best movies I've seen this year. The acting is phenomenal.</div>
+                    </div>
+                    <div class="comment-item">
+                        <div class="comment-avatar">Sarah</div>
+                        <div class="comment-content">Visually stunning and emotionally captivating. A true masterpiece!</div>
+                    </div>
+                    <div class="comment-item">
+                        <div class="comment-avatar">Mike</div>
+                        <div class="comment-content">The plot twists kept me guessing until the very end. Highly recommended!</div>
+                    </div>
+                </div>
+                <div class="comment-form">
+                    <textarea placeholder="Write your comment..." id="newComment" rows="3"></textarea>
+                    <button class="btn-primary" onclick="addComment()">Post Comment</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Profile Modal -->
+<div class="modal" id="profileModal">
+    <div class="modal-content profile-content">
+        <div class="profile-avatar">👤</div>
+        <div class="profile-info">
+            <h3>Hello User</h3>
+            <div class="profile-stats">
+                <span>Member</span>
+                <span>Upgrade to Premium</span>
+            </div>
+            <div class="profile-actions">
+                <button onclick="changeAvatar()">Change Avatar</button>
+                <button onclick="changePassword()">Change Password</button>
+                <button onclick="logout()">Logout</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Back to Home Button -->
+<button class="fab" onclick="goHome()">🏠</button>
+
+<script src="~/js/movie-details.js"></script>
