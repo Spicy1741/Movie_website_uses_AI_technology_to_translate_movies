@@ -1,0 +1,9 @@
+D:\GIT\Movie_website_uses_AI_technology_to_translate_movies\Film website\obj\Debug\net8.0\Film website.csproj.AssemblyReference.cache
+D:\GIT\Movie_website_uses_AI_technology_to_translate_movies\Film website\obj\Debug\net8.0\Film website.GeneratedMSBuildEditorConfig.editorconfig
+D:\GIT\Movie_website_uses_AI_technology_to_translate_movies\Film website\obj\Debug\net8.0\Film website.AssemblyInfoInputs.cache
+D:\GIT\Movie_website_uses_AI_technology_to_translate_movies\Film website\obj\Debug\net8.0\Film website.AssemblyInfo.cs
+D:\GIT\Movie_website_uses_AI_technology_to_translate_movies\Film website\obj\Debug\net8.0\Film website.csproj.CoreCompileInputs.cache
+D:\GIT\Movie_website_uses_AI_technology_to_translate_movies\Film website\obj\Debug\net8.0\Film website.MvcApplicationPartsAssemblyInfo.cache
+D:\GIT\Movie_website_uses_AI_technology_to_translate_movies\Film website\obj\Debug\net8.0\Film website.RazorAssemblyInfo.cache
+D:\GIT\Movie_website_uses_AI_technology_to_translate_movies\Film website\obj\Debug\net8.0\Film website.RazorAssemblyInfo.cs
+D:\GIT\Movie_website_uses_AI_technology_to_translate_movies\Film website\obj\Debug\net8.0\Film website.sourcelink.json
