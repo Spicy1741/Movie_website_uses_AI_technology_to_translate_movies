@@ -1,430 +1,183 @@
 ﻿@{
-    ViewData["Title"] = "CineHub - Movie Website";
+    ViewData["Title"] = "CineHub Comic Edition";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<link rel="stylesheet" href="~/css/styles.css">
+@section Styles {
+    <link rel="stylesheet" href="~/css/comic-styles.css" asp-append-version="true" />
+}
 
-<!-- Side Navigation -->
-<div class="side-nav" id="sideNav">
-    <div class="side-nav-header">
-        <div class="side-nav-avatar">👤</div>
-        <div class="side-nav-name" id="sideNavName">Welcome, User</div>
-    </div>
-    <nav class="side-nav-menu">
-        <a href="#home" class="side-nav-item active" data-section="home">
-            <div class="side-nav-icon">🏠</div>
-            <div class="side-nav-text">Home</div>
-        </a>
-        <a href="#recent" class="side-nav-item" onclick="showRecent()">
-            <div class="side-nav-icon">🕒</div>
-            <div class="side-nav-text">Recent</div>
-        </a>
-        <a href="#favorites" class="side-nav-item" data-section="favorites">
-            <div class="side-nav-icon">♥️</div>
-            <div class="side-nav-text">Favorites</div>
-        </a>
-        <a href="#profile" class="side-nav-item" data-section="profile">
-            <div class="side-nav-icon">👤</div>
-            <div class="side-nav-text">Account</div>
-        </a>
-        <a href="#theme" class="side-nav-item" onclick="toggleTheme()">
-            <div class="side-nav-icon">🎨</div>
-            <div class="side-nav-text">Theme</div>
-        </a>
-        <a href="#contact" class="side-nav-item" data-section="contact">
-            <div class="side-nav-icon">📞</div>
-            <div class="side-nav-text">Contact</div>
-        </a>
-    </nav>
+<!-- Comic Book Floating Elements -->
+<div class="comic-elements" id="comicElements">
+    <!-- Dynamic comic elements will be added here -->
 </div>
 
-<!-- Side Navigation Overlay -->
-<div class="side-nav-overlay" id="sideNavOverlay"></div>
-
-<!-- Navigation -->
-<nav class="navbar">
-    <div class="nav-container">
-        <div class="nav-left">
-            <button class="menu-toggle" onclick="toggleSideNav()">☰</button>
-            <div class="nav-logo">
-                <h2>CineHub</h2>
+<!-- Hero Header -->
+<header class="hero-header">
+    <div class="header-container">
+        <div class="logo-section">
+            <div class="logo-circle">🎬</div>
+            <h1>CINEHUB</h1>
+            <p>COMIC EDITION</p>
+        </div>
+        <div class="header-content">
+            <h2>EPIC MOVIE EXPERIENCE</h2>
+            <p>Join the ultimate superhero streaming adventure!</p>
+            <div class="header-buttons">
+                <a href="@Url.Action("Login", "Account")" class="btn btn-primary">LOGIN HERO MODE</a>
+                <a href="#featured" class="btn btn-secondary">EXPLORE MOVIES</a>
             </div>
         </div>
-        <div class="nav-links">
-            <a href="#home" class="nav-link active">Home</a>
-            <a href="#favorites" class="nav-link">Favorites</a>
-            <a href="#contact" class="nav-link">Contact</a>
+        <div class="hero-character">
+            <div class="character-icon">🦸</div>
         </div>
-        <div class="nav-actions">
-            <button class="search-btn" onclick="toggleSearch()">🔍</button>
-            <button class="theme-btn" onclick="toggleTheme()">🌙</button>
-            <button class="profile-btn" onclick="toggleProfile()">👤</button>
+    </div>
+</header>
+
+<!-- Navigation -->
+<nav class="main-nav">
+    <div class="nav-container">
+        <div class="nav-logo">
+            <span>🎬 CINEHUB</span>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#movies">MOVIES</a></li>
+            <li><a href="#series">SERIES</a></li>
+            <li><a href="#genres">GENRES</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+        <div class="nav-auth">
+            <a href="@Url.Action("Login", "Account")" class="login-btn">LOGIN</a>
         </div>
     </div>
 </nav>
 
-<!-- Search Bar -->
-<div class="search-container" id="searchContainer">
-    <div class="search-box">
-        <input type="text" placeholder="Search movies..." id="searchInput">
-        <div class="search-filters">
-            <select id="categoryFilter">
-                <option value="">Category</option>
-                <option value="action">Action</option>
-                <option value="drama">Drama</option>
-                <option value="comedy">Comedy</option>
-                <option value="thriller">Thriller</option>
-            </select>
-            <select id="timeFilter">
-                <option value="">Time</option>
-                <option value="2024">2024</option>
-                <option value="2023">2023</option>
-                <option value="2022">2022</option>
-            </select>
-            <select id="languageFilter">
-                <option value="">Language</option>
-                <option value="english">English</option>
-                <option value="spanish">Spanish</option>
-                <option value="french">French</option>
-            </select>
-            <select id="scoreFilter">
-                <option value="">Score</option>
-                <option value="9+">9.0+</option>
-                <option value="8+">8.0+</option>
-                <option value="7+">7.0+</option>
-            </select>
-        </div>
-    </div>
-</div>
-
-<!-- Main Content -->
-<main id="mainContent">
-    <!-- Home Section -->
-    <section id="home" class="section active">
-        <!-- High Score Section -->
-        <div class="high-score-section">
-            <h2 class="section-title">High Score</h2>
-            <div class="movie-grid high-score">
-                <div class="movie-card featured" onclick="goToMoviePage('epic-masterpiece')">
-                    <div class="movie-score">9.2</div>
-                    <div class="movie-poster">
-                        <div class="poster-placeholder">Movie Poster</div>
-                    </div>
-                    <h3>Epic Masterpiece</h3>
-                    <div class="movie-actions">
-                        <button class="btn-primary" onclick="event.stopPropagation(); watchMovie('epic-masterpiece')">Watch</button>
-                        <button class="btn-secondary" onclick="event.stopPropagation(); addToFavorites(this)">♡</button>
-                    </div>
-                </div>
-                <div class="movie-card featured" onclick="goToMoviePage('classic-legend')">
-                    <div class="movie-score">9.0</div>
-                    <div class="movie-poster">
-                        <div class="poster-placeholder">Movie Poster</div>
-                    </div>
-                    <h3>Classic Legend</h3>
-                    <div class="movie-actions">
-                        <button class="btn-primary" onclick="event.stopPropagation(); watchMovie('classic-legend')">Watch</button>
-                        <button class="btn-secondary" onclick="event.stopPropagation(); addToFavorites(this)">♡</button>
-                    </div>
-                </div>
-                <div class="movie-card featured" onclick="goToMoviePage('award-winner')">
-                    <div class="movie-score">8.9</div>
-                    <div class="movie-poster">
-                        <div class="poster-placeholder">Movie Poster</div>
-                    </div>
-                    <h3>Award Winner</h3>
-                    <div class="movie-actions">
-                        <button class="btn-primary" onclick="event.stopPropagation(); watchMovie('award-winner')">Watch</button>
-                        <button class="btn-secondary" onclick="event.stopPropagation(); addToFavorites(this)">♡</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Trending Section -->
-        <div class="trending-section">
-            <h2 class="section-title">Trending</h2>
-            <div class="movie-controls">
-                <button class="control-btn">Play</button>
-                <button class="control-btn">Watch trailer</button>
-            </div>
-            <div class="movie-grid trending">
-                <div class="movie-card" data-category="action" onclick="goToMoviePage('action-thriller')">
-                    <div class="movie-score">8.7</div>
-                    <div class="movie-poster">
-                        <div class="poster-placeholder">Movie</div>
-                    </div>
-                </div>
-                <div class="movie-card" data-category="drama" onclick="goToMoviePage('drama-story')">
-                    <div class="movie-score">8.5</div>
-                    <div class="movie-poster">
-                        <div class="poster-placeholder">Movie</div>
-                    </div>
-                </div>
-                <div class="movie-card" data-category="comedy" onclick="goToMoviePage('comedy-hit')">
-                    <div class="movie-score">8.3</div>
-                    <div class="movie-poster">
-                        <div class="poster-placeholder">Movie</div>
-                    </div>
-                </div>
-                <div class="movie-card" data-category="thriller" onclick="goToMoviePage('thriller-mystery')">
-                    <div class="movie-score">8.8</div>
-                    <div class="movie-poster">
-                        <div class="poster-placeholder">Movie</div>
-                    </div>
-                </div>
-                <div class="movie-card" data-category="action" onclick="goToMoviePage('action-adventure')">
-                    <div class="movie-score">8.4</div>
-                    <div class="movie-poster">
-                        <div class="poster-placeholder">Movie</div>
-                    </div>
-                </div>
-                <div class="movie-card" data-category="drama" onclick="goToMoviePage('drama-romance')">
-                    <div class="movie-score">8.6</div>
-                    <div class="movie-poster">
-                        <div class="poster-placeholder">Movie</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Favorites Section -->
-    <section id="favorites" class="section">
-        <h2 class="section-title">Your Favorite Movies</h2>
-        <div class="favorites-grid" id="favoritesGrid">
-            <div class="movie-card favorite-item">
+<!-- Featured Section -->
+<section id="featured" class="featured-section">
+    <div class="container">
+        <h2>🌟 FEATURED EPIC MOVIES 🌟</h2>
+        <div class="movies-grid">
+            <div class="movie-card" onclick="openMovieDetails('epic-adventure')">
                 <div class="movie-poster">
-                    <div class="poster-placeholder">Movie</div>
+                    <div class="poster-placeholder">🎬 EPIC ADVENTURE</div>
+                    <div class="movie-overlay">
+                        <button class="play-btn">▶️ PLAY</button>
+                    </div>
+                </div>
+                <div class="movie-info">
+                    <h3>Epic Adventure</h3>
+                    <p>Action • 2024 • ⭐ 9.5/10</p>
                 </div>
             </div>
-            <div class="movie-card favorite-item selected">
+
+            <div class="movie-card" onclick="openMovieDetails('hero-legends')">
                 <div class="movie-poster">
-                    <div class="poster-placeholder">Movie</div>
+                    <div class="poster-placeholder">🦸 HERO LEGENDS</div>
+                    <div class="movie-overlay">
+                        <button class="play-btn">▶️ PLAY</button>
+                    </div>
+                </div>
+                <div class="movie-info">
+                    <h3>Hero Legends</h3>
+                    <p>Superhero • 2024 • ⭐ 9.8/10</p>
                 </div>
             </div>
-            <div class="movie-card favorite-item">
+
+            <div class="movie-card" onclick="openMovieDetails('cosmic-journey')">
                 <div class="movie-poster">
-                    <div class="poster-placeholder">Movie</div>
+                    <div class="poster-placeholder">🌌 COSMIC JOURNEY</div>
+                    <div class="movie-overlay">
+                        <button class="play-btn">▶️ PLAY</button>
+                    </div>
+                </div>
+                <div class="movie-info">
+                    <h3>Cosmic Journey</h3>
+                    <p>Sci-Fi • 2024 • ⭐ 9.3/10</p>
                 </div>
             </div>
-            <div class="movie-card favorite-item">
+
+            <div class="movie-card" onclick="openMovieDetails('legendary-quest')">
                 <div class="movie-poster">
-                    <div class="poster-placeholder">Movie</div>
-                </div>
-            </div>
-            <div class="movie-card favorite-item">
-                <div class="movie-poster">
-                    <div class="poster-placeholder">Movie</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- User Profile Section -->
-    <section id="profile" class="section">
-        <div class="profile-container">
-            <div class="profile-header">
-                <div class="profile-avatar-large">
-                    <div class="avatar-circle-large">👤</div>
-                    <button class="edit-avatar-btn">📷</button>
-                </div>
-                <div class="profile-info-main">
-                    <h2 class="profile-username">John Doe</h2>
-                    <p class="profile-email">john.doe@email.com</p>
-                    <div class="profile-membership">
-                        <span class="membership-badge">Premium Member</span>
-                        <span class="membership-since">Member since 2023</span>
+                    <div class="poster-placeholder">⚔️ LEGENDARY QUEST</div>
+                    <div class="movie-overlay">
+                        <button class="play-btn">▶️ PLAY</button>
                     </div>
                 </div>
-            </div>
-
-            <div class="profile-stats">
-                <div class="stat-item">
-                    <h3>156</h3>
-                    <p>Movies Watched</p>
-                </div>
-                <div class="stat-item">
-                    <h3>42</h3>
-                    <p>Favorites</p>
-                </div>
-                <div class="stat-item">
-                    <h3>8.7</h3>
-                    <p>Avg Rating</p>
-                </div>
-                <div class="stat-item">
-                    <h3>89</h3>
-                    <p>Reviews</p>
-                </div>
-            </div>
-
-            <div class="profile-settings">
-                <h3>Account Settings</h3>
-                <div class="settings-grid">
-                    <button class="setting-item" onclick="editProfile()">
-                        <span class="setting-icon">✏️</span>
-                        <span class="setting-text">Edit Profile</span>
-                        <span class="setting-arrow">→</span>
-                    </button>
-                    <button class="setting-item" onclick="changePassword()">
-                        <span class="setting-icon">🔒</span>
-                        <span class="setting-text">Change Password</span>
-                        <span class="setting-arrow">→</span>
-                    </button>
-                    <button class="setting-item" onclick="notificationSettings()">
-                        <span class="setting-icon">🔔</span>
-                        <span class="setting-text">Notifications</span>
-                        <span class="setting-arrow">→</span>
-                    </button>
-                    <button class="setting-item" onclick="privacySettings()">
-                        <span class="setting-icon">🛡️</span>
-                        <span class="setting-text">Privacy</span>
-                        <span class="setting-arrow">→</span>
-                    </button>
-                    <button class="setting-item" onclick="billingSettings()">
-                        <span class="setting-icon">💳</span>
-                        <span class="setting-text">Billing</span>
-                        <span class="setting-arrow">→</span>
-                    </button>
-                    <button class="setting-item danger" onclick="logout()">
-                        <span class="setting-icon">🚪</span>
-                        <span class="setting-text">Logout</span>
-                        <span class="setting-arrow">→</span>
-                    </button>
-                </div>
-            </div>
-
-            <div class="profile-activity">
-                <h3>Recent Activity</h3>
-                <div class="activity-list">
-                    <div class="activity-item">
-                        <div class="activity-icon">👁️</div>
-                        <div class="activity-content">
-                            <p><strong>Watched</strong> Epic Masterpiece</p>
-                            <span class="activity-time">2 hours ago</span>
-                        </div>
-                    </div>
-                    <div class="activity-item">
-                        <div class="activity-icon">♥️</div>
-                        <div class="activity-content">
-                            <p><strong>Added to favorites</strong> Classic Legend</p>
-                            <span class="activity-time">1 day ago</span>
-                        </div>
-                    </div>
-                    <div class="activity-item">
-                        <div class="activity-icon">⭐</div>
-                        <div class="activity-content">
-                            <p><strong>Rated</strong> Award Winner - 9.2/10</p>
-                            <span class="activity-time">2 days ago</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="section">
-        <div class="contact-container">
-            <div class="contact-form-section">
-                <h1>Contact Us</h1>
-                <form class="contact-form" onsubmit="submitContact(event)">
-                    <div class="form-row">
-                        <input type="text" placeholder="First Name" required>
-                        <input type="text" placeholder="Last Name" required>
-                    </div>
-                    <input type="email" placeholder="Email" required>
-                    <textarea placeholder="What can help you" rows="5" required></textarea>
-                    <button type="submit" class="btn-primary">Submit</button>
-                </form>
-            </div>
-        </div>
-    </section>
-</main>
-
-<!-- Auth Modals -->
-<div class="modal" id="authModal">
-    <div class="modal-content">
-        <div class="modal-tabs">
-            <button class="tab-btn active" onclick="showLoginForm()">Login</button>
-            <button class="tab-btn" onclick="showRegisterForm()">Register</button>
-        </div>
-
-        <div class="auth-form login-form active">
-            <div class="logo-section">
-                <div class="logo-placeholder">Logo</div>
-            </div>
-            <form onsubmit="handleLogin(event)">
-                <input type="text" placeholder="User Name" required>
-                <input type="password" placeholder="Password" required>
-                <button type="submit" class="btn-primary">Login</button>
-            </form>
-        </div>
-
-        <div class="auth-form register-form">
-            <div class="logo-section">
-                <div class="logo-placeholder">Logo</div>
-            </div>
-            <form onsubmit="handleRegister(event)">
-                <input type="text" placeholder="User Name" required>
-                <input type="password" placeholder="Password" required>
-                <input type="tel" placeholder="Phone number" required>
-                <input type="email" placeholder="Email" required>
-                <button type="submit" class="btn-primary">Register</button>
-            </form>
-        </div>
-    </div>
-</div>
-
-<!-- Profile Modal -->
-<div class="modal" id="profileModal">
-    <div class="modal-content profile-content">
-        <div class="profile-avatar">👤</div>
-        <div class="profile-info">
-            <h3>Hello User</h3>
-            <div class="profile-stats">
-                <span>Member</span>
-                <span>Upgrade to Premium</span>
-            </div>
-            <div class="profile-actions">
-                <button onclick="changeAvatar()">Change Avatar</button>
-                <button onclick="changePassword()">Change Password</button>
-                <button onclick="logout()">Logout</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Recent Activity Modal -->
-<div class="modal" id="recentModal">
-    <div class="modal-content recent-content">
-        <h3>Your Recent Activity</h3>
-        <div class="recent-sections">
-            <div class="recent-movies">
-                <h4>List of Movie</h4>
-                <table class="recent-table">
-                    <thead>
-                        <tr>
-                            <th>Movie</th>
-                            <th>Duration</th>
-                            <th>Time</th>
-                        </tr>
-                    </thead>
-                    <tbody id="recentMoviesTable">
-                        <!-- Recent movies will be populated here -->
-                    </tbody>
-                </table>
-            </div>
-            <div class="recent-comments">
-                <h4>List of comments</h4>
-                <div class="comments-list" id="recentCommentsList">
-                    <!-- Recent comments will be populated here -->
+                <div class="movie-info">
+                    <h3>Legendary Quest</h3>
+                    <p>Fantasy • 2024 • ⭐ 9.6/10</p>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</section>
 
-<!-- Floating Action Button -->
-<button class="fab" onclick="showRecent()">📊</button>
+<!-- Categories Section -->
+<section class="categories-section">
+    <div class="container">
+        <h2>🎭 EPIC CATEGORIES 🎭</h2>
+        <div class="categories-grid">
+            <div class="category-card">
+                <div class="category-icon">💥</div>
+                <h3>ACTION</h3>
+                <p>High-octane thrills and epic battles</p>
+            </div>
 
-<script src="~/js/main.js"></script>
+            <div class="category-card">
+                <div class="category-icon">🦸</div>
+                <h3>SUPERHERO</h3>
+                <p>Heroes saving the world in style</p>
+            </div>
+
+            <div class="category-card">
+                <div class="category-icon">🌌</div>
+                <h3>SCI-FI</h3>
+                <p>Journey to distant galaxies</p>
+            </div>
+
+            <div class="category-card">
+                <div class="category-icon">😂</div>
+                <h3>COMEDY</h3>
+                <p>Laugh until your sides hurt</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="main-footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>🎬 CINEHUB</h3>
+                <p>The ultimate movie streaming experience with a comic book twist!</p>
+            </div>
+            <div class="footer-section">
+                <h4>QUICK LINKS</h4>
+                <ul>
+                    <li><a href="#movies">Movies</a></li>
+                    <li><a href="#series">Series</a></li>
+                    <li><a href="#genres">Genres</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>FOLLOW US</h4>
+                <div class="social-links">
+                    <a href="#">📘 Facebook</a>
+                    <a href="#">🐦 Twitter</a>
+                    <a href="#">📸 Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 CineHub. All rights reserved. 🦸‍♂️</p>
+        </div>
+    </div>
+</footer>
+
+@section Scripts {
+    <script src="~/js/comic-main.js" asp-append-version="true"></script>
+    <script src="~/js/comic-details.js" asp-append-version="true"></script>
+}

@@ -1,0 +1,309 @@
+﻿@{
+    ViewData["Title"] = "SUBTITLE TRANSLATOR - CineHub Comic Edition";
+    Layout = null; // No layout for translator
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/translator-styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Creepster&family=Bungee&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Comic Book Floating Elements -->
+    <div class="comic-elements" id="comicElements">
+        <!-- Dynamic comic elements will be added here -->
+    </div>
+
+    <!-- Profile Modal -->
+    <div class="modal" id="profileModal">
+        <div class="modal-content">
+            <h3>👨‍💻 TRANSLATOR PROFILE 👨‍💻</h3>
+            <div class="profile-info">
+                <div class="profile-avatar-large">🌐</div>
+                <h4>Epic Translator</h4>
+                <p>Language Expert Level: LEGENDARY</p>
+                <div class="translator-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">156</span>
+                        <span class="stat-label">Files Translated</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">8</span>
+                        <span class="stat-label">Languages</span>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-actions">
+                <button onclick="editProfile()">✏️ EDIT PROFILE</button>
+                <button onclick="changePassword()">🔒 CHANGE PASSWORD</button>
+                <button onclick="viewSettings()">⚙️ SETTINGS</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating Action Button -->
+    <button class="fab" onclick="showQuickActions()">🚀</button>
+
+    <script src="~/js/translator.js"></script>
+</body>
+</html>
+
+<!-- Navigation -->
+<nav class="navbar">
+    <div class="nav-container">
+        <div class="nav-left">
+            <div class="nav-logo">
+                <h2>🎬 TRANSLATOR HQ 🎬</h2>
+            </div>
+        </div>
+        <div class="nav-center">
+            <h1>💬 SUBTITLE TRANSLATOR 💬</h1>
+        </div>
+        <div class="nav-right">
+            <button class="nav-btn" onclick="toggleNotifications()">🔔</button>
+            <button class="nav-btn" onclick="toggleProfile()">👨‍💻</button>
+        </div>
+    </div>
+</nav>
+
+<!-- Main Container -->
+<div class="main-container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="sidebar-section">
+            <div class="user-info">
+                <div class="user-avatar">🌐</div>
+                <div class="user-details">
+                    <h3>TRANSLATOR</h3>
+                    <p>Language Expert</p>
+                </div>
+            </div>
+        </div>
+
+        <nav class="sidebar-menu">
+            <a href="#" class="menu-item active">
+                <span class="menu-icon">🌐</span>
+                <span class="menu-text">SUBTITLE TRANSLATOR</span>
+            </a>
+            <a href="#" class="menu-item" onclick="showAdminNotes()">
+                <span class="menu-icon">📝</span>
+                <span class="menu-text">NOTE FROM ADMIN</span>
+            </a>
+            <a href="@Url.Action("Index", "Home")" class="menu-item">
+                <span class="menu-icon">🚪</span>
+                <span class="menu-text">LOGOUT</span>
+            </a>
+        </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Translator Section -->
+        <section class="translator-section">
+            <div class="section-header">
+                <h2>🌐 EPIC SUBTITLE TRANSLATOR 🌐</h2>
+                <div class="translator-info">
+                    <span class="status-badge">🔥 ACTIVE TRANSLATOR</span>
+                </div>
+            </div>
+
+            <!-- File Input Section -->
+            <div class="file-input-section">
+                <form asp-action="UploadSubtitle" asp-controller="Translation" method="post" enctype="multipart/form-data">
+                    <div class="input-container">
+                        <div class="input-header">
+                            <h3>📁 INPUT MOVIE FILE 📁</h3>
+                        </div>
+                        <div class="file-drop-zone" id="fileDropZone">
+                            <div class="drop-content">
+                                <div class="drop-icon">🎬</div>
+                                <h4>DRAG & DROP EPIC MOVIE FILE</h4>
+                                <p>Or click to browse for heroic subtitles</p>
+                                <input type="file" name="SubtitleFile" id="movieFileInput" accept=".srt,.vtt,.ass,.ssa" hidden>
+                                <button type="button" class="browse-btn" onclick="document.getElementById('movieFileInput').click()">
+                                    📂 BROWSE FILES
+                                </button>
+                            </div>
+                        </div>
+                        <div class="file-info" id="fileInfo" style="display: none;">
+                            <div class="file-details">
+                                <span class="file-name" id="fileName">epic_subtitles.srt</span>
+                                <span class="file-size" id="fileSize">2.5 KB</span>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Translation Section -->
+            <div class="translation-section">
+                <form asp-action="TranslateSubtitle" asp-controller="Translation" method="post">
+                    <div class="translation-container">
+                        <!-- Original Text -->
+                        <div class="text-panel original-panel">
+                            <div class="panel-header">
+                                <h3>📝 ORIGINAL SUBTITLE 📝</h3>
+                                <div class="language-badge">🇺🇸 ENGLISH</div>
+                            </div>
+                            <div class="text-area-container">
+                                <textarea name="OriginalText" id="originalText" placeholder="Original subtitle text will appear here..." readonly>1
+00:00:01,000 --> 00:00:04,000
+Welcome to the epic adventure!
+
+2
+00:00:05,000 --> 00:00:08,000
+Our heroes are ready for battle!
+
+3
+00:00:09,000 --> 00:00:12,000
+The legendary quest begins now!</textarea>
+                            </div>
+                        </div>
+
+                        <!-- Translation Controls -->
+                        <div class="translation-controls">
+                            <div class="control-panel">
+                                <h4>🔧 TRANSLATION CONTROLS 🔧</h4>
+                                <div class="language-selectors">
+                                    <div class="language-group">
+                                        <label>FROM:</label>
+                                        <select name="SourceLanguage" id="sourceLanguage">
+                                            <option value="en">🇺🇸 English</option>
+                                            <option value="es">🇪🇸 Spanish</option>
+                                            <option value="fr">🇫🇷 French</option>
+                                            <option value="de">🇩🇪 German</option>
+                                            <option value="it">🇮🇹 Italian</option>
+                                            <option value="pt">🇵🇹 Portuguese</option>
+                                            <option value="zh">🇨🇳 Chinese</option>
+                                            <option value="ja">🇯🇵 Japanese</option>
+                                            <option value="ko">🇰🇷 Korean</option>
+                                        </select>
+                                    </div>
+                                    <div class="swap-button">
+                                        <button type="button" onclick="swapLanguages()">🔄</button>
+                                    </div>
+                                    <div class="language-group">
+                                        <label>TO:</label>
+                                        <select name="TargetLanguage" id="targetLanguage">
+                                            <option value="es">🇪🇸 Spanish</option>
+                                            <option value="en">🇺🇸 English</option>
+                                            <option value="fr">🇫🇷 French</option>
+                                            <option value="de">🇩🇪 German</option>
+                                            <option value="it">🇮🇹 Italian</option>
+                                            <option value="pt">🇵🇹 Portuguese</option>
+                                            <option value="zh">🇨🇳 Chinese</option>
+                                            <option value="ja">🇯🇵 Japanese</option>
+                                            <option value="ko">🇰🇷 Korean</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="action-buttons">
+                                    <button type="submit" class="translate-btn">
+                                        ⚡ TRANSLATE EPIC SUBTITLES ⚡
+                                    </button>
+                                    <button type="button" class="clear-btn" onclick="clearTranslation()">
+                                        🗑️ CLEAR ALL
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Translated Text -->
+                        <div class="text-panel translated-panel">
+                            <div class="panel-header">
+                                <h3>🌟 TRANSLATED SUBTITLE 🌟</h3>
+                                <div class="language-badge" id="targetLanguageBadge">🇪🇸 SPANISH</div>
+                            </div>
+                            <div class="text-area-container">
+                                <textarea name="TranslatedText" id="translatedText" placeholder="Translated subtitle will appear here...">1
+00:00:01,000 --> 00:00:04,000
+¡Bienvenidos a la aventura épica!
+
+2
+00:00:05,000 --> 00:00:08,000
+¡Nuestros héroes están listos para la batalla!
+
+3
+00:00:09,000 --> 00:00:12,000
+¡La búsqueda legendaria comienza ahora!</textarea>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Download Section -->
+            <div class="download-section">
+                <div class="download-container">
+                    <h3>💾 DOWNLOAD TRANSLATED FILE 💾</h3>
+                    <div class="download-info">
+                        <div class="file-preview">
+                            <div class="preview-icon">📄</div>
+                            <div class="preview-details">
+                                <span class="preview-name" id="downloadFileName">epic_subtitles_spanish.srt</span>
+                                <span class="preview-size">2.8 KB</span>
+                                <span class="preview-language">🇪🇸 Spanish Subtitles</span>
+                            </div>
+                        </div>
+                        <button class="download-btn" onclick="downloadTranslation()">
+                            ⬇️ DOWNLOAD EPIC TRANSLATION ⬇️
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Notes Section -->
+            <div class="notes-section">
+                <div class="notes-container">
+                    <h3>📋 TRANSLATION NOTES 📋</h3>
+                    <form asp-action="SaveNotes" asp-controller="Translation" method="post">
+                        <div class="notes-content">
+                            <h4>💡 WHAT SHOULD CHANGE OR FIX TO AI 💡</h4>
+                            <textarea name="TranslationNotes" id="translationNotes" placeholder="Add your epic translation notes and AI improvement suggestions here..."></textarea>
+                            <div class="notes-actions">
+                                <button type="submit" class="save-notes-btn">💾 SAVE NOTES</button>
+                                <button type="button" class="clear-notes-btn" onclick="clearNotes()">🗑️ CLEAR NOTES</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Admin Notes Panel -->
+    <aside class="admin-notes-panel" id="adminNotesPanel">
+        <div class="notes-panel-header">
+            <h3>📝 NOTE FROM ADMIN BAR 📝</h3>
+            <button class="close-panel-btn" onclick="hideAdminNotes()">❌</button>
+        </div>
+        <div class="admin-notes-content">
+            <div class="note-item">
+                <div class="note-header">
+                    <span class="note-title">TRANSLATION PROBLEM AND USER RESPONSE</span>
+                    <span class="note-date">2024-01-15</span>
+                </div>
+                <div class="note-content">
+                    <p><strong>ADMIN MESSAGE:</strong> Please review the timing accuracy for action scenes. Some subtitles appear too fast during epic battle sequences.</p>
+                    <p><strong>PRIORITY:</strong> High 🔥</p>
+                    <p><strong>DEADLINE:</strong> End of today</p>
+                </div>
+            </div>
+            <div class="note-item">
+                <div class="note-header">
+                    <span class="note-title">CHARACTER NAME CONSISTENCY</span>
+                    <span class="note-date">2024-01-14</span>
+                </div>
+                <div class="note-content">
+                    <p><strong>ADMIN MESSAGE:</strong> Ensure all hero names are consistently translated across all episodes in the series.</p>
+                    <p><strong>PRIORITY:</strong> Medium ⚡</p>
+                    <p><strong>STATUS:</strong> In Progress</p>
+                </div>
+            </div>
+        </div>
+    </aside>
+</div>

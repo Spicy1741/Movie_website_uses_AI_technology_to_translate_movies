@@ -1,0 +1,227 @@
+﻿@{
+    ViewData["Title"] = "Content Manager - CineHub Comic Edition";
+    Layout = null; // No layout for content manager
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/comic-styles.css">
+    <link rel="stylesheet" href="~/css/content-manager.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Creepster&family=Bungee&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Comic Book Floating Elements -->
+    <div class="comic-elements" id="comicElements"></div>
+
+    <!-- Main Container -->
+    <div class="content-manager-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo-section">
+                <div class="logo-circle">
+                    <span>🎬</span>
+                </div>
+            </div>
+
+            <nav class="sidebar-nav">
+                <a href="#" class="nav-item" onclick="showReportManager()">
+                    <span class="nav-icon">📋</span>
+                    <span class="nav-text">Report from Content manager</span>
+                </a>
+                <a href="#" class="nav-item active" onclick="showAddMovie()">
+                    <span class="nav-icon">➕</span>
+                    <span class="nav-text">Adding New movie</span>
+                </a>
+                <a href="#" class="nav-item" onclick="showDeleteManager()">
+                    <span class="nav-icon">🗑️</span>
+                    <span class="nav-text">Delete Movie</span>
+                </a>
+                <a href="#" class="nav-item" onclick="showCommentManager()">
+                    <span class="nav-icon">💬</span>
+                    <span class="nav-text">Comment from user</span>
+                </a>
+                <a href="#" class="nav-item" onclick="showUserContact()">
+                    <span class="nav-icon">📞</span>
+                    <span class="nav-text">User contact</span>
+                </a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Header -->
+            <header class="content-header">
+                <h1 class="page-title" id="pageTitle">🎬 Content Manager: Adding Movie 🎬</h1>
+                <div class="header-actions">
+                    <button class="btn-icon" onclick="showNotifications()">🔔</button>
+                    <button class="btn-icon" onclick="showUserProfile()">👤</button>
+                </div>
+            </header>
+
+            <!-- Add Movie Section -->
+            <section class="add-movie-section" id="addMovieSection">
+                <div class="form-container">
+                    <form asp-action="AddMovie" asp-controller="ContentManagement" method="post" enctype="multipart/form-data">
+                        <div class="form-grid">
+                            <div class="input-group">
+                                <label for="movieName">Movie Name</label>
+                                <input type="text" name="MovieName" id="movieName" placeholder="Enter epic movie title..." required>
+                            </div>
+
+                            <div class="input-group">
+                                <label for="movieType">Type</label>
+                                <select name="MovieType" id="movieType" required>
+                                    <option value="">Select Type</option>
+                                    <option value="action">ACTION 💥</option>
+                                    <option value="drama">DRAMA 🎭</option>
+                                    <option value="comedy">COMEDY 😂</option>
+                                    <option value="thriller">THRILLER ⚡</option>
+                                    <option value="romance">ROMANCE 💕</option>
+                                    <option value="sci-fi">SCI-FI 🚀</option>
+                                    <option value="horror">HORROR 👻</option>
+                                </select>
+                            </div>
+
+                            <div class="input-group">
+                                <label for="movieDate">Release Date</label>
+                                <input type="date" name="ReleaseDate" id="movieDate" required>
+                            </div>
+
+                            <div class="input-group">
+                                <label for="movieSummary">Summary</label>
+                                <textarea name="Summary" id="movieSummary" placeholder="Write an EPIC summary..." rows="3" required></textarea>
+                            </div>
+
+                            <div class="input-group">
+                                <label for="moviePoster">Poster</label>
+                                <input type="file" name="PosterFile" id="moviePoster" accept="image/*">
+                            </div>
+
+                            <div class="input-group">
+                                <label for="movieActors">Actors</label>
+                                <input type="text" name="Actors" id="movieActors" placeholder="List the HEROES..." required>
+                            </div>
+
+                            <div class="input-group">
+                                <label for="actorsPhoto">Actors Photo</label>
+                                <input type="file" name="ActorsPhotoFiles" id="actorsPhoto" accept="image/*" multiple>
+                            </div>
+
+                            <div class="input-group">
+                                <label for="movieDirector">Director</label>
+                                <input type="text" name="Director" id="movieDirector" placeholder="The LEGENDARY director..." required>
+                            </div>
+
+                            <div class="input-group">
+                                <label for="movieFile">Movie File</label>
+                                <input type="file" name="MovieFile" id="movieFile" accept="video/*">
+                            </div>
+
+                            <div class="input-group">
+                                <label for="movieSubtitle">Subtitle</label>
+                                <input type="file" name="SubtitleFile" id="movieSubtitle" accept=".srt,.vtt,.ass">
+                            </div>
+                        </div>
+
+                        <div class="preview-area">
+                            <h3>🎬 MOVIE PREVIEW 🎬</h3>
+                            <div class="preview-content" id="previewContent">
+                                <div class="preview-placeholder">
+                                    <span>⚡ Your EPIC movie preview will appear here! ⚡</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="submit-section">
+                            <button type="submit" class="btn-submit">
+                                💥 SUBMIT EPIC MOVIE 💥
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+            <!-- Delete Movie Section -->
+            <section class="delete-movie-section" id="deleteMovieSection" style="display: none;">
+                <div class="search-container">
+                    <div class="search-bar">
+                        <input type="text" id="deleteSearchInput" placeholder="🔍 Search for movie to delete...">
+                        <div class="search-filters">
+                            <select id="deleteTypeFilter">
+                                <option value="">All Types</option>
+                                <option value="action">ACTION 💥</option>
+                                <option value="drama">DRAMA 🎭</option>
+                                <option value="comedy">COMEDY 😂</option>
+                                <option value="thriller">THRILLER ⚡</option>
+                            </select>
+                            <select id="deleteDateFilter">
+                                <option value="">All Dates</option>
+                                <option value="2024">2024 🚀</option>
+                                <option value="2023">2023 ⭐</option>
+                                <option value="2022">2022 🎊</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="movies-table-container">
+                    <table class="movies-table">
+                        <thead>
+                            <tr>
+                                <th>Movie Name</th>
+                                <th>Type</th>
+                                <th>Director</th>
+                                <th>Date</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="moviesTableBody">
+                            <tr>
+                                <td>🦸 Epic Masterpiece</td>
+                                <td><span class="type-tag action">ACTION 💥</span></td>
+                                <td>Hero Director</td>
+                                <td>2024-03-15</td>
+                                <td>
+                                    <button class="btn-action edit" onclick="editMovie('epic-masterpiece')">✏️ EDIT</button>
+                                    <button class="btn-action delete" onclick="deleteMovie('epic-masterpiece')">🗑️ DELETE</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>🌟 Classic Legend</td>
+                                <td><span class="type-tag drama">DRAMA 🎭</span></td>
+                                <td>Legend Director</td>
+                                <td>2024-02-10</td>
+                                <td>
+                                    <button class="btn-action edit" onclick="editMovie('classic-legend')">✏️ EDIT</button>
+                                    <button class="btn-action delete" onclick="deleteMovie('classic-legend')">🗑️ DELETE</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Other sections would be added here -->
+
+        </main>
+    </div>
+
+    <!-- Delete Modal -->
+    <div class="modal" id="deleteModal">
+        <div class="modal-content">
+            <h3>⚠️ DELETE MOVIE WARNING ⚠️</h3>
+            <p>Are you sure you want to DELETE this EPIC movie? This action cannot be undone!</p>
+            <div class="modal-actions">
+                <button class="btn-secondary" onclick="closeDeleteModal()">❌ CANCEL</button>
+                <button class="btn-danger" onclick="confirmDelete()">🗑️ DELETE FOREVER</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/js/content-manager.js"></script>
+</body>
+</html>

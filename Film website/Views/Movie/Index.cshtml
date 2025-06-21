@@ -1,0 +1,468 @@
+﻿@{
+    ViewData["Title"] = "CineHub - Comic Book Edition";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineHub - Comic Book Edition</title>
+    <link rel="stylesheet" href="~/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Creepster&family=Bungee&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Comic Book Floating Elements -->
+    <div class="comic-elements" id="comicElements">
+        <!-- Dynamic comic elements will be added here -->
+    </div>
+
+    <!-- Side Navigation -->
+    <div class="side-nav" id="sideNav">
+        <div class="side-nav-header">
+            <div class="side-nav-avatar">🦸</div>
+            <div class="side-nav-name" id="sideNavName">Welcome, Hero!</div>
+        </div>
+        <nav class="side-nav-menu">
+            <a href="@Url.Action("Index", "Movie")" class="side-nav-item active" data-section="home">
+                <div class="side-nav-icon">🏠</div>
+                <div class="side-nav-text">Home Base</div>
+            </a>
+            <a href="#recent" class="side-nav-item" onclick="showRecent()">
+                <div class="side-nav-icon">⚡</div>
+                <div class="side-nav-text">Recent Action</div>
+            </a>
+            <a href="#favorites" class="side-nav-item" data-section="favorites">
+                <div class="side-nav-icon">💥</div>
+                <div class="side-nav-text">Hero Picks</div>
+            </a>
+            <a href="@Url.Action("Profile", "Account")" class="side-nav-item" data-section="profile">
+                <div class="side-nav-icon">🎭</div>
+                <div class="side-nav-text">Hero Profile</div>
+            </a>
+            <a href="#theme" class="side-nav-item" onclick="toggleTheme()">
+                <div class="side-nav-icon">🌟</div>
+                <div class="side-nav-text">Power Mode</div>
+            </a>
+            <a href="@Url.Action("Contact", "Home")" class="side-nav-item" data-section="contact">
+                <div class="side-nav-icon">📺</div>
+                <div class="side-nav-text">HQ Contact</div>
+            </a>
+        </nav>
+    </div>
+
+    <!-- Side Navigation Overlay -->
+    <div class="side-nav-overlay" id="sideNavOverlay"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-left">
+                <button class="menu-toggle" onclick="toggleSideNav()">☰</button>
+                <div class="nav-logo">
+                    <h2>🎬 CINEHUB 🎬</h2>
+                </div>
+            </div>
+            <div class="nav-links">
+                <a href="@Url.Action("Index", "Movie")" class="nav-link active">HOME</a>
+                <a href="#favorites" class="nav-link">FAVORITES</a>
+                <a href="@Url.Action("Contact", "Home")" class="nav-link">CONTACT</a>
+            </div>
+            <div class="nav-actions">
+                <button class="search-btn" onclick="toggleSearch()">🔍</button>
+                <button class="theme-btn" onclick="toggleTheme()">🌙</button>
+                <button class="profile-btn" onclick="toggleProfile()" id="profileButton">🔐</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Search Bar -->
+    <div class="search-container" id="searchContainer">
+        <div class="search-box">
+            <input type="text" placeholder="Search for epic movies..." id="searchInput">
+            <div class="search-filters">
+                <select id="categoryFilter">
+                    <option value="">Category</option>
+                    <option value="action">ACTION! 💥</option>
+                    <option value="drama">DRAMA 🎭</option>
+                    <option value="comedy">COMEDY 😂</option>
+                    <option value="thriller">THRILLER ⚡</option>
+                </select>
+                <select id="timeFilter">
+                    <option value="">Era</option>
+                    <option value="2024">2024 🚀</option>
+                    <option value="2023">2023 ⭐</option>
+                    <option value="2022">2022 🎊</option>
+                </select>
+                <select id="languageFilter">
+                    <option value="">Language</option>
+                    <option value="english">English 🇺🇸</option>
+                    <option value="spanish">Spanish 🇪🇸</option>
+                    <option value="french">French 🇫🇷</option>
+                </select>
+                <select id="scoreFilter">
+                    <option value="">Power Level</option>
+                    <option value="9+">LEGENDARY! 9.0+</option>
+                    <option value="8+">EPIC! 8.0+</option>
+                    <option value="7+">AWESOME! 7.0+</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main id="mainContent">
+        <!-- Home Section -->
+        <section id="home" class="section active">
+            <!-- High Score Section -->
+            <div class="high-score-section">
+                <h2 class="section-title">🏆 LEGENDARY MOVIES 🏆</h2>
+                <div class="movie-grid high-score">
+                    <div class="movie-card featured" onclick="goToMoviePage('epic-masterpiece')">
+                        <div class="movie-score">9.2</div>
+                        <div class="movie-poster">
+                            <div class="poster-placeholder">EPIC MASTERPIECE</div>
+                        </div>
+                        <h3>EPIC MASTERPIECE</h3>
+                        <div class="movie-actions">
+                            <button class="btn-primary" onclick="event.stopPropagation(); watchMovie('epic-masterpiece')">WATCH NOW!</button>
+                            <button class="btn-secondary" onclick="event.stopPropagation(); addToFavorites(this)">❤️ FAV</button>
+                        </div>
+                    </div>
+                    <div class="movie-card featured" onclick="goToMoviePage('classic-legend')">
+                        <div class="movie-score">9.0</div>
+                        <div class="movie-poster">
+                            <div class="poster-placeholder">CLASSIC LEGEND</div>
+                        </div>
+                        <h3>CLASSIC LEGEND</h3>
+                        <div class="movie-actions">
+                            <button class="btn-primary" onclick="event.stopPropagation(); watchMovie('classic-legend')">WATCH NOW!</button>
+                            <button class="btn-secondary" onclick="event.stopPropagation(); addToFavorites(this)">❤️ FAV</button>
+                        </div>
+                    </div>
+                    <div class="movie-card featured" onclick="goToMoviePage('award-winner')">
+                        <div class="movie-score">8.9</div>
+                        <div class="movie-poster">
+                            <div class="poster-placeholder">AWARD WINNER</div>
+                        </div>
+                        <h3>AWARD WINNER</h3>
+                        <div class="movie-actions">
+                            <button class="btn-primary" onclick="event.stopPropagation(); watchMovie('award-winner')">WATCH NOW!</button>
+                            <button class="btn-secondary" onclick="event.stopPropagation(); addToFavorites(this)">❤️ FAV</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Trending Section -->
+            <div class="trending-section">
+                <h2 class="section-title">⚡ TRENDING HEROES ⚡</h2>
+                <div class="movie-controls">
+                    <button class="control-btn">🎬 PLAY ALL</button>
+                    <button class="control-btn">👀 WATCH TRAILERS</button>
+                    <button class="control-btn">⭐ TOP RATED</button>
+                </div>
+                <div class="movie-grid trending">
+                    <div class="movie-card" data-category="action" onclick="goToMoviePage('action-thriller')">
+                        <div class="movie-score">8.7</div>
+                        <div class="movie-poster">
+                            <div class="poster-placeholder">ACTION HERO</div>
+                        </div>
+                    </div>
+                    <div class="movie-card" data-category="drama" onclick="goToMoviePage('drama-story')">
+                        <div class="movie-score">8.5</div>
+                        <div class="movie-poster">
+                            <div class="poster-placeholder">DRAMA SAGA</div>
+                        </div>
+                    </div>
+                    <div class="movie-card" data-category="comedy" onclick="goToMoviePage('comedy-hit')">
+                        <div class="movie-score">8.3</div>
+                        <div class="movie-poster">
+                            <div class="poster-placeholder">COMEDY BLAST</div>
+                        </div>
+                    </div>
+                    <div class="movie-card" data-category="thriller" onclick="goToMoviePage('thriller-mystery')">
+                        <div class="movie-score">8.8</div>
+                        <div class="movie-poster">
+                            <div class="poster-placeholder">THRILLER SHOCK</div>
+                        </div>
+                    </div>
+                    <div class="movie-card" data-category="action" onclick="goToMoviePage('action-adventure')">
+                        <div class="movie-score">8.4</div>
+                        <div class="movie-poster">
+                            <div class="poster-placeholder">ADVENTURE QUEST</div>
+                        </div>
+                    </div>
+                    <div class="movie-card" data-category="drama" onclick="goToMoviePage('drama-romance')">
+                        <div class="movie-score">8.6</div>
+                        <div class="movie-poster">
+                            <div class="poster-placeholder">ROMANCE EPIC</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Movies Section -->
+        <section id="movies" class="section">
+            <div class="movie-detail-section">
+                <h2 class="section-title">🎭 MOVIE SPOTLIGHT 🎭</h2>
+                <div class="movie-detail-container">
+                    <div class="movie-trailer">
+                        <div class="trailer-placeholder">EPIC TRAILER</div>
+                        <div class="trailer-controls">
+                            <button class="control-btn">ACT 1 💥</button>
+                            <button class="control-btn">ACT 2 ⚡</button>
+                            <button class="control-btn">ACT 3 🔥</button>
+                            <button class="control-btn">FINALE 🌟</button>
+                        </div>
+                    </div>
+                    <div class="movie-info">
+                        <div class="movie-poster-large">
+                            <div class="poster-placeholder">HERO POSTER</div>
+                        </div>
+                        <div class="movie-categories">
+                            <span class="category-tag">ACTION 💥</span>
+                            <span class="category-tag">ADVENTURE ⚡</span>
+                            <span class="category-tag">EPIC 🌟</span>
+                            <span class="category-tag">HERO 🦸</span>
+                        </div>
+                        <div class="movie-summary">
+                            <p>AN INCREDIBLE JOURNEY OF HEROES, VILLAINS, AND EPIC BATTLES! THIS MASTERPIECE WILL BLOW YOUR MIND WITH STUNNING VISUALS AND HEART-POUNDING ACTION!</p>
+                        </div>
+                        <div class="movie-actions-detail">
+                            <button class="btn-primary">💥 FAVORITE</button>
+                            <button class="btn-secondary">❌ IGNORE</button>
+                            <button class="btn-primary">🎬 WATCH</button>
+                            <button class="btn-secondary">⭐ RATE</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="comments-section">
+                    <h3>💬 HERO REVIEWS 💬</h3>
+                    <div class="comments-list">
+                        <div class="comment-item">
+                            <div class="comment-avatar">H1</div>
+                            <div class="comment-content">ABSOLUTELY AMAZING! The action sequences were MIND-BLOWING! 💥💥💥</div>
+                        </div>
+                        <div class="comment-item">
+                            <div class="comment-avatar">S2</div>
+                            <div class="comment-content">Best superhero movie EVER! The plot twists had me on the edge of my seat! ⚡⚡⚡</div>
+                        </div>
+                        <div class="comment-item">
+                            <div class="comment-avatar">A3</div>
+                            <div class="comment-content">EPIC storytelling and incredible visual effects! A true MASTERPIECE! 🌟🌟🌟</div>
+                        </div>
+                        <div class="comment-item">
+                            <div class="comment-avatar">M4</div>
+                            <div class="comment-content">The character development was PHENOMENAL! Can't wait for the sequel! 🔥🔥🔥</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Favorites Section -->
+        <section id="favorites" class="section">
+            <h2 class="section-title">💥 YOUR HERO COLLECTION 💥</h2>
+            <div class="favorites-grid" id="favoritesGrid">
+                <div class="movie-card favorite-item">
+                    <div class="movie-poster">
+                        <div class="poster-placeholder">HERO MOVIE 1</div>
+                    </div>
+                </div>
+                <div class="movie-card favorite-item selected">
+                    <div class="movie-poster">
+                        <div class="poster-placeholder">HERO MOVIE 2</div>
+                    </div>
+                </div>
+                <div class="movie-card favorite-item">
+                    <div class="movie-poster">
+                        <div class="poster-placeholder">HERO MOVIE 3</div>
+                    </div>
+                </div>
+                <div class="movie-card favorite-item">
+                    <div class="movie-poster">
+                        <div class="poster-placeholder">HERO MOVIE 4</div>
+                    </div>
+                </div>
+                <div class="movie-card favorite-item">
+                    <div class="movie-poster">
+                        <div class="poster-placeholder">HERO MOVIE 5</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- User Profile Section -->
+        <section id="profile" class="section">
+            <div class="profile-container">
+                <div class="profile-header">
+                    <div class="profile-avatar-large">
+                        <div class="avatar-circle-large">🦸</div>
+                        <button class="edit-avatar-btn">📸</button>
+                    </div>
+                    <div class="profile-info-main">
+                        <h2 class="profile-username" id="profileUsername">HERO SUPREME</h2>
+                        <p class="profile-email" id="profileEmail">hero@cinehub.com</p>
+                        <div class="profile-membership">
+                            <span class="membership-badge">💥 LEGENDARY MEMBER 💥</span>
+                            <span class="membership-since">Hero since 2023</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="profile-stats">
+                    <div class="stat-item">
+                        <h3>156</h3>
+                        <p>MOVIES CONQUERED</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>42</h3>
+                        <p>HERO FAVORITES</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>8.7</h3>
+                        <p>POWER RATING</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>89</h3>
+                        <p>EPIC REVIEWS</p>
+                    </div>
+                </div>
+
+                <div class="profile-settings">
+                    <h3>🛠️ HERO SETTINGS 🛠️</h3>
+                    <div class="settings-grid">
+                        <button class="setting-item" onclick="editProfile()">
+                            <span class="setting-icon">✏️</span>
+                            <span class="setting-text">EDIT HERO PROFILE</span>
+                            <span class="setting-arrow">→</span>
+                        </button>
+                        <button class="setting-item" onclick="changePassword()">
+                            <span class="setting-icon">🔒</span>
+                            <span class="setting-text">CHANGE SECRET CODE</span>
+                            <span class="setting-arrow">→</span>
+                        </button>
+                        <button class="setting-item" onclick="notificationSettings()">
+                            <span class="setting-icon">🔔</span>
+                            <span class="setting-text">HERO ALERTS</span>
+                            <span class="setting-arrow">→</span>
+                        </button>
+                        <button class="setting-item" onclick="privacySettings()">
+                            <span class="setting-icon">🛡️</span>
+                            <span class="setting-text">PRIVACY SHIELD</span>
+                            <span class="setting-arrow">→</span>
+                        </button>
+                        <button class="setting-item" onclick="billingSettings()">
+                            <span class="setting-icon">💳</span>
+                            <span class="setting-text">HERO BILLING</span>
+                            <span class="setting-arrow">→</span>
+                        </button>
+                        <button class="setting-item danger" onclick="logout()">
+                            <span class="setting-icon">🚪</span>
+                            <span class="setting-text">EXIT HERO MODE</span>
+                            <span class="setting-arrow">→</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="profile-activity">
+                    <h3>⚡ RECENT HERO ACTIVITY ⚡</h3>
+                    <div class="activity-list">
+                        <div class="activity-item">
+                            <div class="activity-icon">👁️</div>
+                            <div class="activity-content">
+                                <p><strong>WATCHED</strong> Epic Masterpiece 💥</p>
+                                <span class="activity-time">2 hours ago</span>
+                            </div>
+                        </div>
+                        <div class="activity-item">
+                            <div class="activity-icon">💥</div>
+                            <div class="activity-content">
+                                <p><strong>ADDED TO FAVORITES</strong> Classic Legend ⚡</p>
+                                <span class="activity-time">1 day ago</span>
+                            </div>
+                        </div>
+                        <div class="activity-item">
+                            <div class="activity-icon">⭐</div>
+                            <div class="activity-content">
+                                <p><strong>RATED</strong> Award Winner - 9.2/10 🌟</p>
+                                <span class="activity-time">2 days ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="contact-container">
+                <div class="contact-form-section">
+                    <h1>📞 CONTACT HERO HQ 📞</h1>
+                    <form class="contact-form" onsubmit="submitContact(event)">
+                        <div class="form-row">
+                            <input type="text" placeholder="HERO FIRST NAME" required>
+                            <input type="text" placeholder="HERO LAST NAME" required>
+                        </div>
+                        <input type="email" placeholder="HERO EMAIL" required>
+                        <textarea placeholder="WHAT CAN THE HERO LEAGUE HELP YOU WITH?" rows="5" required></textarea>
+                        <button type="submit" class="btn-primary">💥 SEND MESSAGE 💥</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Profile Modal (Simple version for logged in users) -->
+    <div class="modal" id="profileModal">
+        <div class="modal-content profile-content">
+            <div class="profile-avatar">🦸</div>
+            <div class="profile-info">
+                <h3 id="modalProfileName">Hello Hero</h3>
+                <div class="profile-actions">
+                    <button onclick="changeAvatar()">CHANGE HERO AVATAR</button>
+                    <button onclick="changePassword()">CHANGE SECRET CODE</button>
+                    <button onclick="logout()">EXIT HERO MODE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Recent Activity Modal -->
+    <div class="modal" id="recentModal">
+        <div class="modal-content recent-content">
+            <h3>⚡ YOUR RECENT HERO ACTIVITY ⚡</h3>
+            <div class="recent-sections">
+                <div class="recent-movies">
+                    <h4>🎬 HERO MOVIE LIST 🎬</h4>
+                    <table class="recent-table">
+                        <thead>
+                            <tr>
+                                <th>MOVIE</th>
+                                <th>DURATION</th>
+                                <th>TIME</th>
+                            </tr>
+                        </thead>
+                        <tbody id="recentMoviesTable">
+                            <!-- Recent movies will be populated here -->
+                        </tbody>
+                    </table>
+                </div>
+                <div class="recent-comments">
+                    <h4>💬 HERO COMMENTS 💬</h4>
+                    <div class="comments-list" id="recentCommentsList">
+                        <!-- Recent comments will be populated here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating Action Button -->
+    <button class="fab" onclick="showRecent()">📊</button>
+
+    <script src="~/js/comic-main.js"></script>
+</body>
+</html>

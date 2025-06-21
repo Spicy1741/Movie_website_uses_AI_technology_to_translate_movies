@@ -17,105 +17,81 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Film_website
 build_property.RootNamespace = Film_website
-build_property.ProjectDir = D:\git\Movie_website_uses_AI_technology_to_translate_movies\Film website\
+build_property.ProjectDir = D:\do an\Movie_website_uses_AI_technology_to_translate_movies\Film website\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\git\Movie_website_uses_AI_technology_to_translate_movies\Film website
+build_property.MSBuildProjectDirectory = D:\do an\Movie_website_uses_AI_technology_to_translate_movies\Film website
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/git/Movie_website_uses_AI_technology_to_translate_movies/Film website/Views/Account/Login.cshtml]
+[D:/do an/Movie_website_uses_AI_technology_to_translate_movies/Film website/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git/Movie_website_uses_AI_technology_to_translate_movies/Film website/Views/Account/Profile.cshtml]
+[D:/do an/Movie_website_uses_AI_technology_to_translate_movies/Film website/Views/Account/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git/Movie_website_uses_AI_technology_to_translate_movies/Film website/Views/Account/Register.cshtml]
+[D:/do an/Movie_website_uses_AI_technology_to_translate_movies/Film website/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git/Movie_website_uses_AI_technology_to_translate_movies/Film website/Views/Admin/Dashboard.cshtml]
+[D:/do an/Movie_website_uses_AI_technology_to_translate_movies/Film website/Views/Admin/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git/Movie_website_uses_AI_technology_to_translate_movies/Film website/Views/Admin/SystemSettings.cshtml]
+[D:/do an/Movie_website_uses_AI_technology_to_translate_movies/Film website/Views/Admin/SystemSettings.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3lzdGVtU2V0dGluZ3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git/Movie_website_uses_AI_technology_to_translate_movies/Film website/Views/Admin/UserManagement.cshtml]
+[D:/do an/Movie_website_uses_AI_technology_to_translate_movies/Film website/Views/Admin/UserManagement.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlck1hbmFnZW1lbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git/Movie_website_uses_AI_technology_to_translate_movies/Film website/Views/ContentManagement/Manage.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGVudE1hbmFnZW1lbnRcTWFuYWdlLmNzaHRtbA==
+[D:/do an/Movie_website_uses_AI_technology_to_translate_movies/Film website/Views/ContentManagement/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGVudE1hbmFnZW1lbnRcaW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git/Movie_website_uses_AI_technology_to_translate_movies/Film website/Views/ContentManagement/Status.cshtml]
+[D:/do an/Movie_website_uses_AI_technology_to_translate_movies/Film website/Views/ContentManagement/Status.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGVudE1hbmFnZW1lbnRcU3RhdHVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git/Movie_website_uses_AI_technology_to_translate_movies/Film website/Views/ContentManagement/Upload.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGVudE1hbmFnZW1lbnRcVXBsb2FkLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/git/Movie_website_uses_AI_technology_to_translate_movies/Film website/Views/Home/About.cshtml]
+[D:/do an/Movie_website_uses_AI_technology_to_translate_movies/Film website/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git/Movie_website_uses_AI_technology_to_translate_movies/Film website/Views/Home/Index.cshtml]
+[D:/do an/Movie_website_uses_AI_technology_to_translate_movies/Film website/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git/Movie_website_uses_AI_technology_to_translate_movies/Film website/Views/Movie/Browse.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcQnJvd3NlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/git/Movie_website_uses_AI_technology_to_translate_movies/Film website/Views/Movie/Details.cshtml]
+[D:/do an/Movie_website_uses_AI_technology_to_translate_movies/Film website/Views/Movie/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git/Movie_website_uses_AI_technology_to_translate_movies/Film website/Views/Movie/Watch.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcV2F0Y2guY3NodG1s
+[D:/do an/Movie_website_uses_AI_technology_to_translate_movies/Film website/Views/Movie/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git/Movie_website_uses_AI_technology_to_translate_movies/Film website/Views/Payment/Checkout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxDaGVja291dC5jc2h0bWw=
+[D:/do an/Movie_website_uses_AI_technology_to_translate_movies/Film website/Views/Movie/Player.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcUGxheWVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git/Movie_website_uses_AI_technology_to_translate_movies/Film website/Views/Payment/History.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxIaXN0b3J5LmNzaHRtbA==
+[D:/do an/Movie_website_uses_AI_technology_to_translate_movies/Film website/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git/Movie_website_uses_AI_technology_to_translate_movies/Film website/Views/Payment/Plans.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxQbGFucy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/git/Movie_website_uses_AI_technology_to_translate_movies/Film website/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/git/Movie_website_uses_AI_technology_to_translate_movies/Film website/Views/Shared/_LoginPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/git/Movie_website_uses_AI_technology_to_translate_movies/Film website/Views/Translation/Edit.cshtml]
+[D:/do an/Movie_website_uses_AI_technology_to_translate_movies/Film website/Views/Translation/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNsYXRpb25cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git/Movie_website_uses_AI_technology_to_translate_movies/Film website/Views/Translation/Review.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNsYXRpb25cUmV2aWV3LmNzaHRtbA==
+[D:/do an/Movie_website_uses_AI_technology_to_translate_movies/Film website/Views/Translation/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNsYXRpb25cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/git/Movie_website_uses_AI_technology_to_translate_movies/Film website/Views/Translation/Timeline.cshtml]
+[D:/do an/Movie_website_uses_AI_technology_to_translate_movies/Film website/Views/Translation/Timeline.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNsYXRpb25cVGltZWxpbmUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
-
-[D:/git/Movie_website_uses_AI_technology_to_translate_movies/Film website/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-04yv8gq36g
