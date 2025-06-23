@@ -4,9 +4,9 @@ namespace Film_website.Models.ViewModels
 {
     public class LoginViewModel
     {
-        [Required(ErrorMessage = "Email là bắt buộc")]
-        [EmailAddress(ErrorMessage = "Định dạng email không hợp lệ")]
-        public string Email { get; set; } = string.Empty;
+        [Required(ErrorMessage = "Email hoặc tên người dùng là bắt buộc")]
+        [Display(Name = "Email hoặc tên người dùng")]
+        public string EmailOrUserName { get; set; } = string.Empty;
 
         [Required(ErrorMessage = "Mật khẩu là bắt buộc")]
         [DataType(DataType.Password)]

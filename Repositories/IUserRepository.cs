@@ -7,9 +7,13 @@ namespace Film_website.Repositories.Interfaces
     {
         Task<IdentityResult> CreateUserAsync(User user, string password);
         Task<User?> FindByEmailAsync(string email);
-        Task<SignInResult> PasswordSignInAsync(string email, string password, bool rememberMe);
+        Task<User?> FindByUserNameAsync(string userName);
+        Task<User?> FindByEmailOrUserNameAsync(string emailOrUserName);
+        Task<SignInResult> PasswordSignInAsync(string userNameOrEmail, string password, bool rememberMe);
         Task SignOutAsync();
         Task<IdentityResult> AddToRoleAsync(User user, string role);
         Task<IList<string>> GetRolesAsync(User user);
+        Task<bool> IsUserNameTakenAsync(string userName);
+        Task<bool> IsEmailTakenAsync(string email);
     }
 }

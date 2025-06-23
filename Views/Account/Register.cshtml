@@ -1,5 +1,4 @@
-﻿<!-- Views/Account/Register.cshtml -->
-@model Film_website.Models.ViewModels.RegisterViewModel
+﻿@model Film_website.Models.ViewModels.RegisterViewModel
 @{
     ViewData["Title"] = "Đăng ký";
 }
@@ -25,6 +24,13 @@
                             <input asp-for="LastName" class="form-control" />
                             <span asp-validation-for="LastName" class="text-danger"></span>
                         </div>
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label asp-for="UserName" class="form-label">Tên người dùng</label>
+                        <input asp-for="UserName" class="form-control" placeholder="Ví dụ: user123" />
+                        <small class="form-text text-muted">Chỉ được chứa chữ cái, số và dấu gạch dưới. Từ 3-30 ký tự.</small>
+                        <span asp-validation-for="UserName" class="text-danger"></span>
                     </div>
 
                     <div class="form-group mb-3">
