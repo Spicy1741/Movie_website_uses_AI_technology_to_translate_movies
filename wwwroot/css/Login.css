@@ -8,25 +8,24 @@ body {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     border: none;
     border-radius: 16px;
-    margin-top: 80px;
+    margin-top: 10px;
 }
 
-.card-header {
+div.card-header {
     background-color: #007bff;
     color: #fff;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
-    padding: 20px 0;
 }
 
 h3.text-center {
     margin: 0;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .card-body {
-    padding: 30px;
+    padding: 20px 40px;
 }
 
 .form-label {
@@ -34,10 +33,14 @@ h3.text-center {
     color: #333;
 }
 
+.form-check-label {
+    color: #333;
+}
+
 .form-control {
     border-radius: 8px;
-    padding: 10px 14px;
-    font-size: 16px;
+    padding: 7px 14px;
+    font-size: 14px;
 }
 
 .btn-primary {

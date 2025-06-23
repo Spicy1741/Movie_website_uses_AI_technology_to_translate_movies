@@ -15,5 +15,9 @@ namespace Film_website.Repositories.Interfaces
         Task<IList<string>> GetRolesAsync(User user);
         Task<bool> IsUserNameTakenAsync(string userName);
         Task<bool> IsEmailTakenAsync(string email);
+
+        // New methods for forgot password functionality
+        Task<User?> FindByEmailAndUserNameAsync(string email, string userName);
+        Task<IdentityResult> ResetPasswordAsync(User user, string newPassword);
     }
 }
