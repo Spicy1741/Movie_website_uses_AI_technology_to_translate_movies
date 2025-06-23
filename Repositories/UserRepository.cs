@@ -88,5 +88,19 @@ namespace Film_website.Repositories
             var user = await _userManager.FindByEmailAsync(email);
             return user != null;
         }
+
+        // New methods for forgot password functionality
+        public async Task<User?> FindByEmailAndUserNameAsync(string email, string userName)
+        {
+            return await _userManager.Users
+                .FirstOrDefaultAsync(u => u.Email == email && u.DisplayUserName == userName);
+        }
+
+        public async Task<IdentityResult> ResetPasswordAsync(User user, string newPassword)
+        {
+            // Remove current password and set new one
+            var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+            return await _userManager.ResetPasswordAsync(user, token, newPassword);
+        }
     }
 }

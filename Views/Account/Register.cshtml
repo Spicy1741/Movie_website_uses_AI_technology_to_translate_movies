@@ -16,38 +16,38 @@
                     <div class="row mb-3">
                         <div class="col-md-6">
                             <label asp-for="FirstName" class="form-label">Họ</label>
-                            <input asp-for="FirstName" class="form-control" />
+                            <input asp-for="FirstName" class="form-control" placeholder="Nhập họ" />
                             <span asp-validation-for="FirstName" class="text-danger"></span>
                         </div>
                         <div class="col-md-6">
                             <label asp-for="LastName" class="form-label">Tên</label>
-                            <input asp-for="LastName" class="form-control" />
+                            <input asp-for="LastName" class="form-control" placeholder="Nhập tên" />
                             <span asp-validation-for="LastName" class="text-danger"></span>
                         </div>
                     </div>
 
                     <div class="form-group mb-3">
                         <label asp-for="UserName" class="form-label">Tên người dùng</label>
-                        <input asp-for="UserName" class="form-control" placeholder="Ví dụ: user123" />
+                        <input asp-for="UserName" class="form-control" placeholder="Nhập tên người dùng" />
                         <small class="form-text text-muted">Chỉ được chứa chữ cái, số và dấu gạch dưới. Từ 3-30 ký tự.</small>
                         <span asp-validation-for="UserName" class="text-danger"></span>
                     </div>
 
                     <div class="form-group mb-3">
                         <label asp-for="Email" class="form-label">Email</label>
-                        <input asp-for="Email" class="form-control" />
+                        <input asp-for="Email" class="form-control" placeholder="Nhập email" />
                         <span asp-validation-for="Email" class="text-danger"></span>
                     </div>
 
                     <div class="form-group mb-3">
                         <label asp-for="Password" class="form-label">Mật khẩu</label>
-                        <input asp-for="Password" class="form-control" />
+                        <input asp-for="Password" class="form-control" placeholder="Nhập mật khẩu" />
                         <span asp-validation-for="Password" class="text-danger"></span>
                     </div>
 
                     <div class="form-group mb-3">
                         <label asp-for="ConfirmPassword" class="form-label">Xác nhận mật khẩu</label>
-                        <input asp-for="ConfirmPassword" class="form-control" />
+                        <input asp-for="ConfirmPassword" class="form-control" placeholder="Nhập lại mật khẩu" />
                         <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
                     </div>
 
@@ -55,7 +55,7 @@
                 </form>
 
                 <div class="text-center mt-3">
-                    <p>Đã có tài khoản? <a asp-action="Login">Đăng nhập tại đây</a></p>
+                    <p style="color:#333">Đã có tài khoản? <a asp-action="Login">Đăng nhập tại đây</a></p>
                 </div>
             </div>
         </div>

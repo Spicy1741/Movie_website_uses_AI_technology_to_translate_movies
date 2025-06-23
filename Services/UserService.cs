@@ -104,5 +104,39 @@ namespace Film_website.Services
         {
             return await _userRepository.GetRolesAsync(user);
         }
+
+        // New methods for forgot password functionality
+        public async Task<bool> ValidateUserForPasswordResetAsync(ForgotPasswordViewModel model)
+        {
+            var user = await _userRepository.FindByEmailAndUserNameAsync(model.Email, model.UserName);
+            return user != null;
+        }
+
+        public async Task<IdentityResult> ResetPasswordAsync(ResetPasswordViewModel model)
+        {
+            var user = await _userRepository.FindByEmailAndUserNameAsync(model.Email, model.UserName);
+
+            if (user == null)
+            {
+                var errors = new List<IdentityError>
+                {
+                    new IdentityError
+                    {
+                        Code = "UserNotFound",
+                        Description = "Không tìm thấy người dùng với email và tên người dùng này."
+                    }
+                };
+                return IdentityResult.Failed(errors.ToArray());
+            }
+
+            var result = await _userRepository.ResetPasswordAsync(user, model.NewPassword);
+
+            if (result.Succeeded)
+            {
+                _logger.LogInformation($"Người dùng {model.Email} đã đặt lại mật khẩu thành công");
+            }
+
+            return result;
+        }
     }
 }

@@ -114,4 +114,99 @@ public class AccountController : Controller
 
         return View(user);
     }
+
+    // Forgot Password functionality
+    [HttpGet]
+    public IActionResult ForgotPassword()
+    {
+        if (User.Identity?.IsAuthenticated == true)
+        {
+            return RedirectToAction("Index", "Movie");
+        }
+        return View();
+    }
+
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> ForgotPassword(ForgotPasswordViewModel model)
+    {
+        if (!ModelState.IsValid)
+        {
+            return View(model);
+        }
+
+        var isValid = await _userService.ValidateUserForPasswordResetAsync(model);
+
+        if (isValid)
+        {
+            // Store user info in TempData for the next step
+            TempData["ResetEmail"] = model.Email;
+            TempData["ResetUserName"] = model.UserName;
+            TempData["SuccessMessage"] = "Thông tin hợp lệ! Vui lòng nhập mật khẩu mới.";
+            return RedirectToAction("ResetPassword");
+        }
+
+        ModelState.AddModelError(string.Empty, "Email và tên người dùng không khớp với bất kỳ tài khoản nào.");
+        return View(model);
+    }
+
+    [HttpGet]
+    public IActionResult ResetPassword()
+    {
+        if (User.Identity?.IsAuthenticated == true)
+        {
+            return RedirectToAction("Index", "Movie");
+        }
+
+        // Check if user came from ForgotPassword
+        if (TempData["ResetEmail"] == null || TempData["ResetUserName"] == null)
+        {
+            return RedirectToAction("ForgotPassword");
+        }
+
+        var model = new ResetPasswordViewModel
+        {
+            Email = TempData["ResetEmail"].ToString()!,
+            UserName = TempData["ResetUserName"].ToString()!
+        };
+
+        // Keep the data for POST
+        TempData.Keep("ResetEmail");
+        TempData.Keep("ResetUserName");
+
+        return View(model);
+    }
+
+    [HttpPost]
+    [ValidateAntiForgeryToken]
+    public async Task<IActionResult> ResetPassword(ResetPasswordViewModel model)
+    {
+        if (!ModelState.IsValid)
+        {
+            return View(model);
+        }
+
+        // Verify the email and username again
+        if (TempData["ResetEmail"]?.ToString() != model.Email ||
+            TempData["ResetUserName"]?.ToString() != model.UserName)
+        {
+            ModelState.AddModelError(string.Empty, "Thông tin không hợp lệ. Vui lòng thử lại.");
+            return RedirectToAction("ForgotPassword");
+        }
+
+        var result = await _userService.ResetPasswordAsync(model);
+
+        if (result.Succeeded)
+        {
+            TempData["SuccessMessage"] = "Đặt lại mật khẩu thành công! Vui lòng đăng nhập với mật khẩu mới.";
+            return RedirectToAction("Login");
+        }
+
+        foreach (var error in result.Errors)
+        {
+            ModelState.AddModelError(string.Empty, error.Description);
+        }
+
+        return View(model);
+    }
 }
