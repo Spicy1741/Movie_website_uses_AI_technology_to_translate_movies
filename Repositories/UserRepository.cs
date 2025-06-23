@@ -1,6 +1,7 @@
 ﻿using Film_website.Models;
 using Film_website.Repositories.Interfaces;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 
 namespace Film_website.Repositories
 {
@@ -25,9 +26,39 @@ namespace Film_website.Repositories
             return await _userManager.FindByEmailAsync(email);
         }
 
-        public async Task<SignInResult> PasswordSignInAsync(string email, string password, bool rememberMe)
+        public async Task<User?> FindByUserNameAsync(string userName)
         {
-            return await _signInManager.PasswordSignInAsync(email, password, rememberMe, lockoutOnFailure: false);
+            return await _userManager.Users
+                .FirstOrDefaultAsync(u => u.DisplayUserName == userName);
+        }
+
+        public async Task<User?> FindByEmailOrUserNameAsync(string emailOrUserName)
+        {
+            // First try to find by email
+            var user = await _userManager.FindByEmailAsync(emailOrUserName);
+
+            // If not found by email, try to find by custom username
+            if (user == null)
+            {
+                user = await _userManager.Users
+                    .FirstOrDefaultAsync(u => u.DisplayUserName == emailOrUserName);
+            }
+
+            return user;
+        }
+
+        public async Task<SignInResult> PasswordSignInAsync(string userNameOrEmail, string password, bool rememberMe)
+        {
+            // Find user by email or username
+            var user = await FindByEmailOrUserNameAsync(userNameOrEmail);
+
+            if (user == null)
+            {
+                return SignInResult.Failed;
+            }
+
+            // Use the actual UserName (which is the email) for SignIn
+            return await _signInManager.PasswordSignInAsync(user.UserName!, password, rememberMe, lockoutOnFailure: false);
         }
 
         public async Task SignOutAsync()
@@ -43,6 +74,19 @@ namespace Film_website.Repositories
         public async Task<IList<string>> GetRolesAsync(User user)
         {
             return await _userManager.GetRolesAsync(user);
+        }
+
+        public async Task<bool> IsUserNameTakenAsync(string userName)
+        {
+            var user = await _userManager.Users
+                .FirstOrDefaultAsync(u => u.DisplayUserName == userName);
+            return user != null;
+        }
+
+        public async Task<bool> IsEmailTakenAsync(string email)
+        {
+            var user = await _userManager.FindByEmailAsync(email);
+            return user != null;
         }
     }
 }

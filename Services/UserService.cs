@@ -18,10 +18,39 @@ namespace Film_website.Services
 
         public async Task<IdentityResult> RegisterUserAsync(RegisterViewModel model)
         {
+            // Check if username is already taken
+            if (await _userRepository.IsUserNameTakenAsync(model.UserName))
+            {
+                var errors = new List<IdentityError>
+                {
+                    new IdentityError
+                    {
+                        Code = "DuplicateUserName",
+                        Description = "Tên người dùng đã được sử dụng."
+                    }
+                };
+                return IdentityResult.Failed(errors.ToArray());
+            }
+
+            // Check if email is already taken
+            if (await _userRepository.IsEmailTakenAsync(model.Email))
+            {
+                var errors = new List<IdentityError>
+                {
+                    new IdentityError
+                    {
+                        Code = "DuplicateEmail",
+                        Description = "Email đã được sử dụng."
+                    }
+                };
+                return IdentityResult.Failed(errors.ToArray());
+            }
+
             var user = new User
             {
-                UserName = model.Email,
+                UserName = model.Email, // Keep email as the main UserName for Identity
                 Email = model.Email,
+                DisplayUserName = model.UserName, // Custom username field
                 FirstName = model.FirstName,
                 LastName = model.LastName,
                 EmailConfirmed = true
@@ -33,7 +62,7 @@ namespace Film_website.Services
             {
                 // Mặc định gán role "User" cho người đăng ký mới
                 await _userRepository.AddToRoleAsync(user, "User");
-                _logger.LogInformation($"Người dùng {model.Email} đăng ký thành công");
+                _logger.LogInformation($"Người dùng {model.Email} (username: {model.UserName}) đăng ký thành công");
             }
 
             return result;
@@ -41,11 +70,11 @@ namespace Film_website.Services
 
         public async Task<SignInResult> LoginUserAsync(LoginViewModel model)
         {
-            var result = await _userRepository.PasswordSignInAsync(model.Email, model.Password, model.RememberMe);
+            var result = await _userRepository.PasswordSignInAsync(model.EmailOrUserName, model.Password, model.RememberMe);
 
             if (result.Succeeded)
             {
-                _logger.LogInformation($"Người dùng {model.Email} đăng nhập thành công");
+                _logger.LogInformation($"Người dùng {model.EmailOrUserName} đăng nhập thành công");
             }
 
             return result;
@@ -59,6 +88,16 @@ namespace Film_website.Services
         public async Task<User?> GetUserByEmailAsync(string email)
         {
             return await _userRepository.FindByEmailAsync(email);
+        }
+
+        public async Task<User?> GetUserByUserNameAsync(string userName)
+        {
+            return await _userRepository.FindByUserNameAsync(userName);
+        }
+
+        public async Task<User?> GetUserByEmailOrUserNameAsync(string emailOrUserName)
+        {
+            return await _userRepository.FindByEmailOrUserNameAsync(emailOrUserName);
         }
 
         public async Task<IList<string>> GetUserRolesAsync(User user)
