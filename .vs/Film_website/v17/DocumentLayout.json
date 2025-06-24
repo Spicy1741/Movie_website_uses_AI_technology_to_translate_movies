@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|e:\\other\\subject\\application development\\another offical\\movie_website_uses_ai_technology_to_translate_movies\\wwwroot\\js\\admin-dashboard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|solutionrelative:wwwroot\\js\\admin-dashboard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|e:\\other\\subject\\application development\\another offical\\movie_website_uses_ai_technology_to_translate_movies\\wwwroot\\css\\admin-styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|solutionrelative:wwwroot\\css\\admin-styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|e:\\other\\subject\\application development\\another offical\\movie_website_uses_ai_technology_to_translate_movies\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AC04C509-AD77-41C7-864B-F6F5A6BFA139}|Film_website.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -162,7 +170,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -178,7 +186,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "admin-dashboard.js",
+              "DocumentMoniker": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\js\\admin-dashboard.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\admin-dashboard.js",
+              "ToolTip": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\js\\admin-dashboard.js",
+              "RelativeToolTip": "wwwroot\\js\\admin-dashboard.js",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAgwAkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-24T17:01:32.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "admin-styles.css",
+              "DocumentMoniker": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\css\\admin-styles.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\admin-styles.css",
+              "ToolTip": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\css\\admin-styles.css",
+              "RelativeToolTip": "wwwroot\\css\\admin-styles.css",
+              "ViewState": "AgIAAG4CAAAAAAAAAAAmwIACAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-24T17:00:47.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Dashboard.cshtml",
               "DocumentMoniker": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\Views\\Admin\\Dashboard.cshtml",
               "RelativeDocumentMoniker": "Views\\Admin\\Dashboard.cshtml",
@@ -186,12 +220,11 @@
               "RelativeToolTip": "Views\\Admin\\Dashboard.cshtml",
               "ViewState": "AgIAAKYBAAAAAAAAAADwv+0BAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-24T16:29:27.663Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T16:29:27.663Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "translator.js",
               "DocumentMoniker": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\js\\translator.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\translator.js",
@@ -199,12 +232,11 @@
               "RelativeToolTip": "wwwroot\\js\\translator.js",
               "ViewState": "AgIAAHoBAAAAAAAAAAAYwI0BAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-06-24T16:28:53.086Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T16:28:53.086Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "translator-styles.css",
               "DocumentMoniker": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\css\\translator-styles.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\translator-styles.css",
@@ -212,12 +244,11 @@
               "RelativeToolTip": "wwwroot\\css\\translator-styles.css",
               "ViewState": "AgIAADICAAAAAAAAAAAwwFMCAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-06-24T16:26:56.438Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T16:26:56.438Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Translator.cshtml",
               "DocumentMoniker": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\Views\\Admin\\Translator.cshtml",
               "RelativeDocumentMoniker": "Views\\Admin\\Translator.cshtml",
@@ -225,12 +256,11 @@
               "RelativeToolTip": "Views\\Admin\\Translator.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-24T16:25:16.601Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T16:25:16.601Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "SystemSettings.cshtml",
               "DocumentMoniker": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\Views\\Admin\\SystemSettings.cshtml",
               "RelativeDocumentMoniker": "Views\\Admin\\SystemSettings.cshtml",
@@ -242,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "UserManagement.cshtml",
               "DocumentMoniker": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\Views\\Admin\\UserManagement.cshtml",
               "RelativeDocumentMoniker": "Views\\Admin\\UserManagement.cshtml",
@@ -254,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "AIService.cs",
               "DocumentMoniker": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\Services\\AIService.cs",
               "RelativeDocumentMoniker": "Services\\AIService.cs",
@@ -266,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\Views\\Admin\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
@@ -279,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "AdminController.cs",
               "DocumentMoniker": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
@@ -287,12 +317,11 @@
               "RelativeToolTip": "Controllers\\AdminController.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAowBkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T17:54:56.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T17:54:56.375Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "AccountController.cs",
               "DocumentMoniker": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
@@ -304,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "MovieController.cs",
               "DocumentMoniker": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\Controllers\\MovieController.cs",
               "RelativeDocumentMoniker": "Controllers\\MovieController.cs",
@@ -316,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "MovieService.cs",
               "DocumentMoniker": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\Services\\MovieService.cs",
               "RelativeDocumentMoniker": "Services\\MovieService.cs",
@@ -328,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "TranslationService.cs",
               "DocumentMoniker": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\Services\\TranslationService.cs",
               "RelativeDocumentMoniker": "Services\\TranslationService.cs",
@@ -340,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -352,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\Models\\ViewModels\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ViewModels\\LoginViewModel.cs",
@@ -364,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "RegisterViewModel.cs",
               "DocumentMoniker": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\Models\\ViewModels\\RegisterViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ViewModels\\RegisterViewModel.cs",
@@ -376,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "User.cs",
               "DocumentMoniker": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
@@ -388,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "UserService.cs",
               "DocumentMoniker": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Services\\UserService.cs",
@@ -400,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "HomeController.cs",
               "DocumentMoniker": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -412,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "Register.cshtml",
               "DocumentMoniker": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
@@ -424,7 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
@@ -436,7 +465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -448,7 +477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "Login.cshtml",
               "DocumentMoniker": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
@@ -460,7 +489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "Profile.cshtml",
               "DocumentMoniker": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\Views\\Account\\Profile.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\Profile.cshtml",
@@ -472,7 +501,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -484,7 +513,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
@@ -496,7 +525,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "HTMLPage1.html",
               "DocumentMoniker": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\Views\\Movie\\HTMLPage1.html",
               "RelativeDocumentMoniker": "Views\\Movie\\HTMLPage1.html",
@@ -508,7 +537,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "Details.cshtml",
               "DocumentMoniker": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\Views\\Movie\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Movie\\Details.cshtml",
@@ -520,7 +549,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
@@ -532,7 +561,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -544,7 +573,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "site.css",
               "DocumentMoniker": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -556,7 +585,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "Login.css",
               "DocumentMoniker": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\css\\Login.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\Login.css",
@@ -568,7 +597,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "_Layout.cshtml.css",
               "DocumentMoniker": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\Views\\Shared\\_Layout.cshtml.css",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml.css",
@@ -580,7 +609,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -592,7 +621,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "Player.cshtml",
               "DocumentMoniker": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\Views\\Movie\\Player.cshtml",
               "RelativeDocumentMoniker": "Views\\Movie\\Player.cshtml",
@@ -604,7 +633,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\Views\\Movie\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Movie\\Index.cshtml",
@@ -616,7 +645,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "20250622174956_WebfilmDb.cs",
               "DocumentMoniker": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\Migrations\\20250622174956_WebfilmDb.cs",
               "RelativeDocumentMoniker": "Migrations\\20250622174956_WebfilmDb.cs",
@@ -628,7 +657,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",

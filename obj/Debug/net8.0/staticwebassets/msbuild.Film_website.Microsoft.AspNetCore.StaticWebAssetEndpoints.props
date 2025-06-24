@@ -1,5 +1,17 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/Film_website/css/admin-styles.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\admin-styles.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-aPRc9d3Z0/gh2GCcPpMnJhqv7\u002B5Q8IHdYy5ZsRMOQWA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"13215"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022aPRc9d3Z0/gh2GCcPpMnJhqv7\u002B5Q8IHdYy5ZsRMOQWA=\u0022"},{"Name":"Last-Modified","Value":"Tue, 24 Jun 2025 17:01:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Film_website/css/admin-styles.sj26yg822w.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\admin-styles.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"sj26yg822w"},{"Name":"integrity","Value":"sha256-aPRc9d3Z0/gh2GCcPpMnJhqv7\u002B5Q8IHdYy5ZsRMOQWA="},{"Name":"label","Value":"_content/Film_website/css/admin-styles.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"13215"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022aPRc9d3Z0/gh2GCcPpMnJhqv7\u002B5Q8IHdYy5ZsRMOQWA=\u0022"},{"Name":"Last-Modified","Value":"Tue, 24 Jun 2025 17:01:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Film_website/css/Login.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Login.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -59,6 +71,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-z7nKP1P6L9iWUZEET24\u002BJnYV32FZwLcrS1LmuX1DIJY="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1132"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022z7nKP1P6L9iWUZEET24\u002BJnYV32FZwLcrS1LmuX1DIJY=\u0022"},{"Name":"Last-Modified","Value":"Tue, 24 Jun 2025 08:50:41 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Film_website/js/admin-dashboard.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\admin-dashboard.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-I4/VDsVGqvOPE0u4G8Kb5tB64mPlczdsSh00B5QGeeo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"15758"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022I4/VDsVGqvOPE0u4G8Kb5tB64mPlczdsSh00B5QGeeo=\u0022"},{"Name":"Last-Modified","Value":"Tue, 24 Jun 2025 17:01:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Film_website/js/admin-dashboard.le9tgn1rvq.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\admin-dashboard.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"le9tgn1rvq"},{"Name":"integrity","Value":"sha256-I4/VDsVGqvOPE0u4G8Kb5tB64mPlczdsSh00B5QGeeo="},{"Name":"label","Value":"_content/Film_website/js/admin-dashboard.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"15758"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022I4/VDsVGqvOPE0u4G8Kb5tB64mPlczdsSh00B5QGeeo=\u0022"},{"Name":"Last-Modified","Value":"Tue, 24 Jun 2025 17:01:48 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Film_website/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>

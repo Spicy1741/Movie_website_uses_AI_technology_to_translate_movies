@@ -1,7 +1,9 @@
+wwwroot\css\admin-styles.css
 wwwroot\css\Login.css
 wwwroot\css\site.css
 wwwroot\css\translator-styles.css
 wwwroot\favicon.ico
+wwwroot\js\admin-dashboard.js
 wwwroot\js\site.js
 wwwroot\js\translator.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

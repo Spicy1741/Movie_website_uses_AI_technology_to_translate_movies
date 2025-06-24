@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\Login.css"
     },
     {
+      "Id": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\css\\admin-styles.css",
+      "PackagePath": "staticwebassets\\css\\admin-styles.css"
+    },
+    {
       "Id": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -19,6 +23,10 @@
     {
       "Id": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\js\\admin-dashboard.js",
+      "PackagePath": "staticwebassets\\js\\admin-dashboard.js"
     },
     {
       "Id": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\js\\site.js",

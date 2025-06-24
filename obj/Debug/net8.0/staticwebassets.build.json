@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WbOMoIgCwMPJ0u3nZsrUFXx8DIBAefiaZCY8khjpu+I=",
+  "Hash": "TbvSFeankEBcXVu8GEmjwRoNLwsKwWoP3PXLIAfDnk4=",
   "Source": "Film_website",
   "BasePath": "_content/Film_website",
   "Mode": "Default",
@@ -57,6 +57,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Film_website.bundle.scp.css"
+    },
+    {
+      "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\css\\admin-styles.css",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+      "BasePath": "_content/Film_website",
+      "RelativePath": "css/admin-styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sj26yg822w",
+      "Integrity": "aPRc9d3Z0/gh2GCcPpMnJhqv7+5Q8IHdYy5ZsRMOQWA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\admin-styles.css"
     },
     {
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\css\\Login.css",
@@ -141,6 +162,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\js\\admin-dashboard.js",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+      "BasePath": "_content/Film_website",
+      "RelativePath": "js/admin-dashboard#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "le9tgn1rvq",
+      "Integrity": "I4/VDsVGqvOPE0u4G8Kb5tB64mPlczdsSh00B5QGeeo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\admin-dashboard.js"
     },
     {
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\js\\site.js",
@@ -1384,6 +1426,88 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/admin-styles.css",
+      "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\css\\admin-styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13215"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aPRc9d3Z0/gh2GCcPpMnJhqv7+5Q8IHdYy5ZsRMOQWA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 17:01:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aPRc9d3Z0/gh2GCcPpMnJhqv7+5Q8IHdYy5ZsRMOQWA="
+        }
+      ]
+    },
+    {
+      "Route": "css/admin-styles.sj26yg822w.css",
+      "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\css\\admin-styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13215"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aPRc9d3Z0/gh2GCcPpMnJhqv7+5Q8IHdYy5ZsRMOQWA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 17:01:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sj26yg822w"
+        },
+        {
+          "Name": "label",
+          "Value": "css/admin-styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aPRc9d3Z0/gh2GCcPpMnJhqv7+5Q8IHdYy5ZsRMOQWA="
+        }
+      ]
+    },
+    {
       "Route": "css/Login.css",
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\css\\Login.css",
       "Selectors": [],
@@ -1872,6 +1996,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-z7nKP1P6L9iWUZEET24+JnYV32FZwLcrS1LmuX1DIJY="
+        }
+      ]
+    },
+    {
+      "Route": "js/admin-dashboard.js",
+      "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\js\\admin-dashboard.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I4/VDsVGqvOPE0u4G8Kb5tB64mPlczdsSh00B5QGeeo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 17:01:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-I4/VDsVGqvOPE0u4G8Kb5tB64mPlczdsSh00B5QGeeo="
+        }
+      ]
+    },
+    {
+      "Route": "js/admin-dashboard.le9tgn1rvq.js",
+      "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\js\\admin-dashboard.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I4/VDsVGqvOPE0u4G8Kb5tB64mPlczdsSh00B5QGeeo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 17:01:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "le9tgn1rvq"
+        },
+        {
+          "Name": "label",
+          "Value": "js/admin-dashboard.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-I4/VDsVGqvOPE0u4G8Kb5tB64mPlczdsSh00B5QGeeo="
         }
       ]
     },

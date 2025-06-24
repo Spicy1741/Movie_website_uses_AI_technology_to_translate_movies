@@ -167,6 +167,88 @@
       ]
     },
     {
+      "Route": "css/admin-styles.css",
+      "AssetFile": "css/admin-styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13215"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aPRc9d3Z0/gh2GCcPpMnJhqv7+5Q8IHdYy5ZsRMOQWA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 17:01:48 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aPRc9d3Z0/gh2GCcPpMnJhqv7+5Q8IHdYy5ZsRMOQWA="
+        }
+      ]
+    },
+    {
+      "Route": "css/admin-styles.sj26yg822w.css",
+      "AssetFile": "css/admin-styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13215"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aPRc9d3Z0/gh2GCcPpMnJhqv7+5Q8IHdYy5ZsRMOQWA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 17:01:48 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sj26yg822w"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aPRc9d3Z0/gh2GCcPpMnJhqv7+5Q8IHdYy5ZsRMOQWA="
+        },
+        {
+          "Name": "label",
+          "Value": "css/admin-styles.css"
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "css/site.css",
       "Selectors": [],
@@ -409,6 +491,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "js/admin-dashboard.js",
+      "AssetFile": "js/admin-dashboard.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I4/VDsVGqvOPE0u4G8Kb5tB64mPlczdsSh00B5QGeeo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 17:01:48 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-I4/VDsVGqvOPE0u4G8Kb5tB64mPlczdsSh00B5QGeeo="
+        }
+      ]
+    },
+    {
+      "Route": "js/admin-dashboard.le9tgn1rvq.js",
+      "AssetFile": "js/admin-dashboard.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15758"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I4/VDsVGqvOPE0u4G8Kb5tB64mPlczdsSh00B5QGeeo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 17:01:48 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "le9tgn1rvq"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-I4/VDsVGqvOPE0u4G8Kb5tB64mPlczdsSh00B5QGeeo="
+        },
+        {
+          "Name": "label",
+          "Value": "js/admin-dashboard.js"
         }
       ]
     },
