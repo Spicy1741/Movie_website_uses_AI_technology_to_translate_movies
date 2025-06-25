@@ -35,4 +35,100 @@
             </div>
         </div>
     </div>
+
+    <!-- Add Translator Card -->
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <div class="card translator-card">
+                <div class="card-header bg-gradient-primary text-white">
+                    <h5>🌐 AI Translator</h5>
+                </div>
+                <div class="card-body">
+                    <p>Dịch phim tự động bằng công nghệ AI tiên tiến.</p>
+                    <a href="@Url.Action("Translator", "Admin")" class="btn btn-success translator-btn">
+                        🚀 Bắt đầu dịch
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h5>Bảng điều khiển nâng cao</h5>
+                </div>
+                <div class="card-body">
+                    <p>Truy cập trang quản trị đầy đủ tính năng.</p>
+                    <a href="@Url.Action("Dashboard", "Admin")" class="btn btn-info">
+                        🎛️ Dashboard
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+
+<style>
+    .translator-card {
+        border: 2px solid #28a745;
+        box-shadow: 0 4px 8px rgba(40, 167, 69, 0.2);
+        position: relative;
+        overflow: hidden;
+    }
+
+        .translator-card::before {
+            content: '✨';
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #ffd700;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            animation: pulse 2s infinite;
+            z-index: 1;
+        }
+
+    .bg-gradient-primary {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+    }
+
+    .translator-btn {
+        background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+        border: none;
+        padding: 0.8rem 1.5rem;
+        font-weight: bold;
+        transition: all 0.3s ease;
+        text-decoration: none;
+        color: white;
+    }
+
+        .translator-btn:hover {
+            background: linear-gradient(135deg, #218838 0%, #1e9b85 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(40, 167, 69, 0.3);
+            color: white;
+        }
+
+    @@keyframes pulse {
+        0%, 100% {
+            transform: scale(1);
+        }
+
+        50% {
+            transform: scale(1.1);
+        }
+    }
+
+    .card {
+        transition: transform 0.3s ease;
+    }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+</style>

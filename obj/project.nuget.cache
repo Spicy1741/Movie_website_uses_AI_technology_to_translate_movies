@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xWNlDXQ0oyQ=",
+  "dgSpecHash": "E25/o0IEe7s=",
   "success": true,
-  "projectFilePath": "D:\\Project1\\Movie_website_uses_AI_technology_to_translate_movies\\Film_website.csproj",
+  "projectFilePath": "C:\\Users\\hienc\\OneDrive\\Máy tính\\Test\\Movie_website_uses_AI_technology_to_translate_movies\\Film_website.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hienc\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\hienc\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
