@@ -11,5 +11,16 @@ namespace Film_website.Controllers
             ViewBag.Message = "Chào mừng đến trang quản trị";
             return View();
         }
+
+        public IActionResult Dashboard()
+        {
+            return View();
+        }
+
+        public IActionResult Translator()
+        {
+            ViewData["Title"] = "AI Translator - CineHub Admin";
+            return View();
+        }
     }
 }
