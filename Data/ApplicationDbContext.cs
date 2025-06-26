@@ -11,6 +11,8 @@ namespace Film_website.Data
         {
         }
 
+        public DbSet<Movie> Movies { get; set; }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
@@ -25,6 +27,17 @@ namespace Film_website.Data
 
                 // Tạo index unique cho DisplayUserName
                 entity.HasIndex(e => e.DisplayUserName).IsUnique();
+            });
+
+            // Cấu hình bảng Movie
+            builder.Entity<Movie>(entity =>
+            {
+                entity.Property(e => e.Title).IsRequired().HasMaxLength(100);
+                entity.Property(e => e.Description).HasMaxLength(500);
+                entity.Property(e => e.Genre).HasMaxLength(50);
+                entity.Property(e => e.FilePath).IsRequired().HasMaxLength(255);
+                entity.Property(e => e.ThumbnailPath).HasMaxLength(255);
+                entity.HasIndex(e => e.Title);
             });
 
             // Seed roles cơ bản

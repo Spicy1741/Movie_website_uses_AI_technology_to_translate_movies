@@ -1,19 +1,34 @@
-﻿using Film_website.Configuration;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Film_website.Data;
+using Film_website.Repositories;
+using Film_website.Services;
 using Film_website.Models;
-using Microsoft.AspNetCore.Identity;
+using Film_website.Repositories.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Thêm services
+// Add services to the container.
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+// Nếu trong Program.cs (trước app.Build() hoặc app.Run())
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<UserService>();
+
+builder.Services.AddIdentity<User, IdentityRole>()
+    .AddEntityFrameworkStores<ApplicationDbContext>()
+    .AddDefaultTokenProviders();
+
+
 builder.Services.AddControllersWithViews();
 
-// Thêm application services
-builder.Services.AddApplicationServices(builder.Configuration);
+// Register repositories and services
+builder.Services.AddScoped<IMovieRepository, MovieRepository>();
+builder.Services.AddScoped<MovieService>();
 
 var app = builder.Build();
 
-// Configure pipeline
+// Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
