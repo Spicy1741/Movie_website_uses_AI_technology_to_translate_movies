@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< Updated upstream
   "Hash": "TbvSFeankEBcXVu8GEmjwRoNLwsKwWoP3PXLIAfDnk4=",
+=======
+  "Hash": "eZLXI6eBkPm6CXBTrqp5FZtE45eI/n5HFvLZwnMScr4=",
+>>>>>>> Stashed changes
   "Source": "Film_website",
   "BasePath": "_content/Film_website",
   "Mode": "Default",
@@ -10,17 +14,28 @@
     {
       "Name": "Film_website\\wwwroot",
       "Source": "Film_website",
+<<<<<<< Updated upstream
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Film_website.styles.css",
       "SourceId": "Film_website",
       "SourceType": "Computed",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Film_website.styles.css",
+      "SourceId": "Film_website",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "Film_website#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -35,6 +50,7 @@
       "Integrity": "z7nKP1P6L9iWUZEET24+JnYV32FZwLcrS1LmuX1DIJY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< Updated upstream
       "OriginalItemSpec": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Film_website.styles.css"
     },
     {
@@ -42,6 +58,15 @@
       "SourceId": "Film_website",
       "SourceType": "Computed",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+=======
+      "OriginalItemSpec": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Film_website.styles.css"
+    },
+    {
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Film_website.bundle.scp.css",
+      "SourceId": "Film_website",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "Film_website#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -56,6 +81,7 @@
       "Integrity": "z7nKP1P6L9iWUZEET24+JnYV32FZwLcrS1LmuX1DIJY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< Updated upstream
       "OriginalItemSpec": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Film_website.bundle.scp.css"
     },
     {
@@ -84,6 +110,15 @@
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "OriginalItemSpec": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Film_website.bundle.scp.css"
+    },
+    {
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\css\\Login.css",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "css/Login#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -94,17 +129,29 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< Updated upstream
       "Fingerprint": "kogor188zl",
       "Integrity": "jHaObybupHnKYnt85G2fmYuwCvWy4WG+tOqM8hqoYUw=",
+=======
+      "Fingerprint": "o5v3yz79qx",
+      "Integrity": "fD52UBFTMvwJUl/U+1c8huGxDPOAqXnU9mSLDTYCkoI=",
+>>>>>>> Stashed changes
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Login.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\css\\site.css",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\css\\site.css",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -122,10 +169,17 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\css\\translator-styles.css",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\css\\translator-styles.css",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "css/translator-styles#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -143,10 +197,17 @@
       "OriginalItemSpec": "wwwroot\\css\\translator-styles.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\favicon.ico",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\favicon.ico",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -164,6 +225,7 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\js\\admin-dashboard.js",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
@@ -189,6 +251,12 @@
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\js\\site.js",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -206,10 +274,17 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\js\\translator.js",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\js\\translator.js",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "js/translator#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -227,10 +302,17 @@
       "OriginalItemSpec": "wwwroot\\js\\translator.js"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -248,10 +330,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -269,10 +358,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -290,10 +386,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -311,10 +414,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -332,10 +442,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -353,10 +470,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -374,10 +498,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -395,10 +526,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -416,10 +554,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -437,10 +582,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -458,10 +610,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -479,10 +638,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -500,10 +666,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -521,10 +694,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -542,10 +722,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -563,10 +750,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -584,10 +778,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -605,10 +806,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -626,10 +834,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -647,10 +862,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -668,10 +890,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -689,10 +918,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -710,10 +946,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -731,10 +974,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -752,10 +1002,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -773,10 +1030,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -794,10 +1058,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -815,10 +1086,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -836,10 +1114,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -857,10 +1142,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -878,10 +1170,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -899,10 +1198,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -920,10 +1226,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -941,10 +1254,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -962,10 +1282,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -983,10 +1310,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1004,10 +1338,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1025,10 +1366,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1046,10 +1394,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1067,10 +1422,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1088,10 +1450,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1109,10 +1478,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1130,10 +1506,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1151,10 +1534,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/bootstrap/LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -1172,10 +1562,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1193,10 +1590,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1214,10 +1618,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1235,10 +1646,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -1256,10 +1674,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/jquery-validation/dist/additional-methods#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1277,10 +1702,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1298,10 +1730,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1319,10 +1758,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1340,10 +1786,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/jquery-validation/LICENSE#[.{fingerprint}]?.md",
       "AssetKind": "All",
@@ -1361,10 +1814,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1382,10 +1842,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1403,10 +1870,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Film_website",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+=======
+      "Identity": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "SourceId": "Film_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/Film_website",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -1426,6 +1900,7 @@
   ],
   "Endpoints": [
     {
+<<<<<<< Updated upstream
       "Route": "css/admin-styles.css",
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\css\\admin-styles.css",
       "Selectors": [],
@@ -1510,6 +1985,10 @@
     {
       "Route": "css/Login.css",
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\css\\Login.css",
+=======
+      "Route": "css/Login.css",
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\css\\Login.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1518,7 +1997,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< Updated upstream
           "Value": "1288"
+=======
+          "Value": "1317"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Content-Type",
@@ -1526,11 +2009,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< Updated upstream
           "Value": "\"jHaObybupHnKYnt85G2fmYuwCvWy4WG+tOqM8hqoYUw=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Tue, 24 Jun 2025 08:51:04 GMT"
+=======
+          "Value": "\"fD52UBFTMvwJUl/U+1c8huGxDPOAqXnU9mSLDTYCkoI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -1540,13 +2031,22 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
+<<<<<<< Updated upstream
           "Value": "sha256-jHaObybupHnKYnt85G2fmYuwCvWy4WG+tOqM8hqoYUw="
+=======
+          "Value": "sha256-fD52UBFTMvwJUl/U+1c8huGxDPOAqXnU9mSLDTYCkoI="
+>>>>>>> Stashed changes
         }
       ]
     },
     {
+<<<<<<< Updated upstream
       "Route": "css/Login.kogor188zl.css",
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\css\\Login.css",
+=======
+      "Route": "css/Login.o5v3yz79qx.css",
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\css\\Login.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1555,7 +2055,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< Updated upstream
           "Value": "1288"
+=======
+          "Value": "1317"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Content-Type",
@@ -1563,11 +2067,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< Updated upstream
           "Value": "\"jHaObybupHnKYnt85G2fmYuwCvWy4WG+tOqM8hqoYUw=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Tue, 24 Jun 2025 08:51:04 GMT"
+=======
+          "Value": "\"fD52UBFTMvwJUl/U+1c8huGxDPOAqXnU9mSLDTYCkoI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -1577,7 +2089,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
+<<<<<<< Updated upstream
           "Value": "kogor188zl"
+=======
+          "Value": "o5v3yz79qx"
+>>>>>>> Stashed changes
         },
         {
           "Name": "label",
@@ -1585,13 +2101,21 @@
         },
         {
           "Name": "integrity",
+<<<<<<< Updated upstream
           "Value": "sha256-jHaObybupHnKYnt85G2fmYuwCvWy4WG+tOqM8hqoYUw="
+=======
+          "Value": "sha256-fD52UBFTMvwJUl/U+1c8huGxDPOAqXnU9mSLDTYCkoI="
+>>>>>>> Stashed changes
         }
       ]
     },
     {
       "Route": "css/site.css",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\css\\site.css",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\css\\site.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1612,7 +2136,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -1628,7 +2156,11 @@
     },
     {
       "Route": "css/site.ipwpt3yp99.css",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\css\\site.css",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\css\\site.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1649,7 +2181,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -1673,7 +2209,11 @@
     },
     {
       "Route": "css/translator-styles.css",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\css\\translator-styles.css",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\css\\translator-styles.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1694,7 +2234,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 16:32:31 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -1710,7 +2254,11 @@
     },
     {
       "Route": "css/translator-styles.ewzutwfxtg.css",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\css\\translator-styles.css",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\css\\translator-styles.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1731,7 +2279,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 16:32:31 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -1755,7 +2307,11 @@
     },
     {
       "Route": "favicon.61n19gt1b8.ico",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\favicon.ico",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\favicon.ico",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1776,7 +2332,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -1800,7 +2360,11 @@
     },
     {
       "Route": "favicon.ico",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\favicon.ico",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\favicon.ico",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1821,7 +2385,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -1837,7 +2405,11 @@
     },
     {
       "Route": "Film_website.5zc2cfbjck.bundle.scp.css",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Film_website.bundle.scp.css",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Film_website.bundle.scp.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1858,7 +2430,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -1882,7 +2458,11 @@
     },
     {
       "Route": "Film_website.5zc2cfbjck.styles.css",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Film_website.styles.css",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Film_website.styles.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1903,7 +2483,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -1927,7 +2511,11 @@
     },
     {
       "Route": "Film_website.bundle.scp.css",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Film_website.bundle.scp.css",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Film_website.bundle.scp.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1948,7 +2536,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -1964,7 +2556,11 @@
     },
     {
       "Route": "Film_website.styles.css",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Film_website.styles.css",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Film_website.styles.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1985,7 +2581,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -2000,6 +2600,7 @@
       ]
     },
     {
+<<<<<<< Updated upstream
       "Route": "js/admin-dashboard.js",
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\js\\admin-dashboard.js",
       "Selectors": [],
@@ -2084,6 +2685,10 @@
     {
       "Route": "js/site.js",
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\js\\site.js",
+=======
+      "Route": "js/site.js",
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\js\\site.js",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2104,7 +2709,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -2120,7 +2729,11 @@
     },
     {
       "Route": "js/site.xtxxf3hu2r.js",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\js\\site.js",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\js\\site.js",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2141,7 +2754,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -2165,7 +2782,11 @@
     },
     {
       "Route": "js/translator.js",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\js\\translator.js",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\js\\translator.js",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2186,7 +2807,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 16:32:31 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -2202,7 +2827,11 @@
     },
     {
       "Route": "js/translator.yveux4vsb1.js",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\js\\translator.js",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\js\\translator.js",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2223,7 +2852,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 16:32:31 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -2247,7 +2880,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2268,7 +2905,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -2284,7 +2925,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.73kdqttayv.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2305,7 +2950,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -2329,7 +2978,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2350,7 +3003,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -2366,7 +3023,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.6gzpyzhau4.css",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2387,7 +3048,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -2411,7 +3076,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2432,7 +3101,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -2448,7 +3121,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.8inm30yfxf.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2469,7 +3146,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -2493,7 +3174,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2514,7 +3199,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -2530,7 +3219,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.ozu22stjof.css",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2551,7 +3244,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -2575,7 +3272,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2596,7 +3297,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -2612,7 +3317,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.4gxs3k148c.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2633,7 +3342,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -2657,7 +3370,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2678,7 +3395,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -2694,7 +3415,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.gjcw7pocpk.css",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2715,7 +3440,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -2739,7 +3468,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.6l4ir0ityv.css",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2760,7 +3493,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -2784,7 +3521,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2805,7 +3546,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -2821,7 +3566,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.fctod5rc9n.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2842,7 +3591,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -2866,7 +3619,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2887,7 +3644,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -2903,7 +3664,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2924,7 +3689,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -2940,7 +3709,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2961,7 +3734,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -2977,7 +3754,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.st1cbwfwo5.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2998,7 +3779,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -3022,7 +3807,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.5p029spbuu.css",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3043,7 +3832,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -3067,7 +3860,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3088,7 +3885,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -3104,7 +3905,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.5vj65cig9w.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3125,7 +3930,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -3149,7 +3958,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3170,7 +3983,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -3186,7 +4003,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.nakmwdwsxp.css",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3207,7 +4028,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -3231,7 +4056,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3252,7 +4081,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -3268,7 +4101,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.2q4vfeazbq.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3289,7 +4126,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -3313,7 +4154,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3334,7 +4179,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -3350,7 +4199,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.e6q6xbwqzk.css",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3371,7 +4224,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -3395,7 +4252,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3416,7 +4277,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -3432,7 +4297,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3453,7 +4322,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -3469,7 +4342,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.o371a8zbv2.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3490,7 +4367,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -3514,7 +4395,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.dy6jgresuo.css",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3535,7 +4420,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -3559,7 +4448,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3580,7 +4473,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -3596,7 +4493,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.jeal3x0ldm.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3617,7 +4518,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -3641,7 +4546,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3662,7 +4571,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -3678,7 +4591,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3699,7 +4616,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -3715,7 +4636,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3736,7 +4661,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -3752,7 +4681,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.okkk44j0xs.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3773,7 +4706,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -3797,7 +4734,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.z7kmom2977.css",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3818,7 +4759,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -3842,7 +4787,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.mk8rdyw69w.css",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3863,7 +4812,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -3887,7 +4840,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.97yrjpyf9r.css",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3908,7 +4865,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -3932,7 +4893,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3953,7 +4918,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -3969,7 +4938,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.cwzlr5n8x4.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3990,7 +4963,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -4014,7 +4991,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4035,7 +5016,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -4051,7 +5036,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4072,7 +5061,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -4088,7 +5081,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4109,7 +5106,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -4125,7 +5126,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.wmug9u23qg.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4146,7 +5151,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -4170,7 +5179,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.y53cy5s2zj.css",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4191,7 +5204,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -4215,7 +5232,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4236,7 +5257,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -4252,7 +5277,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.j75batdsum.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4273,7 +5302,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -4297,7 +5330,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4318,7 +5355,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -4334,7 +5375,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.2yn17lgxub.css",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4355,7 +5400,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -4379,7 +5428,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4400,7 +5453,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -4416,7 +5473,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4437,7 +5498,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -4453,7 +5518,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.vy0bq9ydhf.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4474,7 +5543,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -4498,7 +5571,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4519,7 +5596,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -4535,7 +5616,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.ab1c3rmv7g.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4556,7 +5641,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -4580,7 +5669,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4601,7 +5694,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -4617,7 +5714,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4638,7 +5739,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -4654,7 +5759,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.56d2bn4wt9.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4675,7 +5784,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -4699,7 +5812,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4720,7 +5837,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -4736,7 +5857,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.ik6i2hrs65.css",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4757,7 +5882,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -4781,7 +5910,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.ophe14yye5.css",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4802,7 +5935,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -4826,7 +5963,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.z9shlbduue.css",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4847,7 +5988,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -4871,7 +6016,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.1piudyfv7h.js",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4892,7 +6041,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -4916,7 +6069,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.f6zq8v6eb3.js",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4937,7 +6094,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -4961,7 +6122,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4982,7 +6147,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -4998,7 +6167,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.kbynt5jhd9.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5019,7 +6192,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -5043,7 +6220,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5064,7 +6245,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -5080,7 +6265,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.89qbw8ngem.js",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5101,7 +6290,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -5125,7 +6318,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5146,7 +6343,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -5162,7 +6363,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.c2nslu3uf3.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5183,7 +6388,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -5207,7 +6416,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5228,7 +6441,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -5244,7 +6461,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5265,7 +6486,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -5281,7 +6506,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.2lgwfvgpvi.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5302,7 +6531,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -5326,7 +6559,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5347,7 +6584,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -5363,7 +6604,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.jqwzsa9uv6.js",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5384,7 +6629,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -5408,7 +6657,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5429,7 +6682,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -5445,7 +6702,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5466,7 +6727,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -5482,7 +6747,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.wsezl0heh6.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5503,7 +6772,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -5527,7 +6800,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.n5w6o92d9r.js",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5548,7 +6825,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -5572,7 +6853,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5593,7 +6878,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -5609,7 +6898,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.6ukhryfubh.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5630,7 +6923,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -5654,7 +6951,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5675,7 +6976,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -5691,7 +6996,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.4908xmbfjr.js",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5712,7 +7021,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -5736,7 +7049,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5757,7 +7074,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -5773,7 +7094,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5794,7 +7119,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -5810,7 +7139,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.u33ctipx7g.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5831,7 +7164,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -5855,7 +7192,11 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\LICENSE",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\LICENSE",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5876,7 +7217,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -5892,7 +7237,11 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE.81b7ukuj9c",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\LICENSE",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\bootstrap\\LICENSE",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5913,7 +7262,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -5937,7 +7290,11 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.7s2n0ol71w.js",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5958,7 +7315,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -5982,7 +7343,11 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.js",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6003,7 +7368,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -6019,7 +7388,11 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.5pze98is44.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6040,7 +7413,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -6064,7 +7441,11 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.ehgnz7f14e.js",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6085,7 +7466,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -6109,7 +7494,11 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.js",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6130,7 +7519,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -6146,7 +7539,11 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.map",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6167,7 +7564,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -6183,7 +7584,11 @@
     },
     {
       "Route": "lib/jquery/LICENSE.mlv21k5csn.txt",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery\\LICENSE.txt",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery\\LICENSE.txt",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6204,7 +7609,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -6228,7 +7637,11 @@
     },
     {
       "Route": "lib/jquery/LICENSE.txt",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery\\LICENSE.txt",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery\\LICENSE.txt",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6249,7 +7662,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -6265,7 +7682,11 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.ay5nd8zt9x.js",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6286,7 +7707,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -6310,7 +7735,11 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.js",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6331,7 +7760,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -6347,7 +7780,11 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.9oaff4kq20.js",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6368,7 +7805,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -6392,7 +7833,11 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.js",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6413,7 +7858,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -6429,7 +7878,11 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.6d0lkjaslc.js",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6450,7 +7903,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -6474,7 +7931,11 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.js",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6495,7 +7956,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -6511,7 +7976,11 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.js",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6532,7 +8001,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -6548,7 +8021,11 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.l1zq2mitth.js",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6569,7 +8046,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -6593,7 +8074,11 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.md",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6614,7 +8099,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -6630,7 +8119,11 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.x0q3zqp4vz.md",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6651,7 +8144,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -6675,7 +8172,11 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.03hjc8e09r.js",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6696,7 +8197,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -6720,7 +8225,11 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6741,7 +8250,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -6757,7 +8270,11 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.48y08845bh.js",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6778,7 +8295,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -6802,7 +8323,11 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6823,7 +8348,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -6839,7 +8368,11 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.356vix0kms.txt",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6860,7 +8393,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -6884,7 +8421,11 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.txt",
+<<<<<<< Updated upstream
       "AssetFile": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+=======
+      "AssetFile": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6905,7 +8446,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Tue, 24 Jun 2025 08:50:41 GMT"
+=======
+          "Value": "Thu, 26 Jun 2025 02:57:56 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",

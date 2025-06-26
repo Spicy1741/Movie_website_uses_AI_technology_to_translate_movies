@@ -65,5 +65,67 @@ namespace Film_website.Services
         {
             return await _userRepository.GetRolesAsync(user);
         }
+<<<<<<< Updated upstream
+=======
+
+        // Forgot password functionality
+        public async Task<bool> ValidateUserForPasswordResetAsync(ForgotPasswordViewModel model)
+        {
+            var user = await _userRepository.FindByEmailAndUserNameAsync(model.Email, model.UserName);
+            return user != null;
+        }
+
+        public async Task<IdentityResult> ResetPasswordAsync(ResetPasswordViewModel model)
+        {
+            var user = await _userRepository.FindByEmailAndUserNameAsync(model.Email, model.UserName);
+
+            if (user == null)
+            {
+                var errors = new List<IdentityError>
+                {
+                    new IdentityError
+                    {
+                        Code = "UserNotFound",
+                        Description = "Không tìm thấy người dùng với email và tên người dùng này."
+                    }
+                };
+                return IdentityResult.Failed(errors.ToArray());
+            }
+
+            var result = await _userRepository.ResetPasswordAsync(user, model.NewPassword);
+
+            if (result.Succeeded)
+            {
+                _logger.LogInformation($"Người dùng {model.Email} đã đặt lại mật khẩu thành công");
+            }
+
+            return result;
+        }
+
+        // NEW METHODS: Get all users for admin management
+        public async Task<List<User>> GetAllUsersAsync()
+        {
+            return await _userRepository.GetAllUsersAsync();
+        }
+
+        public async Task<List<User>> GetAllUsersWithRolesAsync()
+        {
+            return await _userRepository.GetAllUsersWithRolesAsync();
+        }
+
+        public async Task<Dictionary<User, IList<string>>> GetAllUsersWithRolesDictionaryAsync()
+        {
+            var users = await _userRepository.GetAllUsersAsync();
+            var usersWithRoles = new Dictionary<User, IList<string>>();
+
+            foreach (var user in users)
+            {
+                var roles = await _userRepository.GetRolesAsync(user);
+                usersWithRoles.Add(user, roles);
+            }
+
+            return usersWithRoles;
+        }
+>>>>>>> Stashed changes
     }
 }

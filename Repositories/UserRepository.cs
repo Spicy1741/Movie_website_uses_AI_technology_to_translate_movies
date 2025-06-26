@@ -44,5 +44,52 @@ namespace Film_website.Repositories
         {
             return await _userManager.GetRolesAsync(user);
         }
+<<<<<<< Updated upstream
+=======
+
+        public async Task<bool> IsUserNameTakenAsync(string userName)
+        {
+            var user = await _userManager.Users
+                .FirstOrDefaultAsync(u => u.DisplayUserName == userName);
+            return user != null;
+        }
+
+        public async Task<bool> IsEmailTakenAsync(string email)
+        {
+            var user = await _userManager.FindByEmailAsync(email);
+            return user != null;
+        }
+
+        // Forgot password functionality
+        public async Task<User?> FindByEmailAndUserNameAsync(string email, string userName)
+        {
+            return await _userManager.Users
+                .FirstOrDefaultAsync(u => u.Email == email && u.DisplayUserName == userName);
+        }
+
+        public async Task<IdentityResult> ResetPasswordAsync(User user, string newPassword)
+        {
+            // Remove current password and set new one
+            var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+            return await _userManager.ResetPasswordAsync(user, token, newPassword);
+        }
+
+        // NEW METHODS: Get all users for admin management
+        public async Task<List<User>> GetAllUsersAsync()
+        {
+            return await _userManager.Users
+                .OrderBy(u => u.CreatedAt)
+                .ToListAsync();
+        }
+
+        public async Task<List<User>> GetAllUsersWithRolesAsync()
+        {
+            var users = await _userManager.Users
+                .OrderBy(u => u.CreatedAt)
+                .ToListAsync();
+
+            return users;
+        }
+>>>>>>> Stashed changes
     }
 }

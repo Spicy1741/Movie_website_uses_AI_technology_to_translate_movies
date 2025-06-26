@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "WhjYq2riUPE=",
   "success": true,
   "projectFilePath": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\Film_website.csproj",
+=======
+  "dgSpecHash": "M17fiW7J0NI=",
+  "success": true,
+  "projectFilePath": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\Film_website.csproj",
+>>>>>>> Stashed changes
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

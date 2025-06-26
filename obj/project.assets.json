@@ -5442,11 +5442,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< Updated upstream
       "projectUniqueName": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\Film_website.csproj",
       "projectName": "Film_website",
       "projectPath": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\Film_website.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
       "outputPath": "E:\\Other\\Subject\\Application Development\\Another offical\\Movie_website_uses_AI_technology_to_translate_movies\\obj\\",
+=======
+      "projectUniqueName": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\Film_website.csproj",
+      "projectName": "Film_website",
+      "projectPath": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\Film_website.csproj",
+      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+      "outputPath": "E:\\Other\\Subject\\Research\\Backup 2\\Movie_website_uses_AI_technology_to_translate_movies\\obj\\",
+>>>>>>> Stashed changes
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

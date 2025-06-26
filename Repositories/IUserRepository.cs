@@ -11,5 +11,18 @@ namespace Film_website.Repositories.Interfaces
         Task SignOutAsync();
         Task<IdentityResult> AddToRoleAsync(User user, string role);
         Task<IList<string>> GetRolesAsync(User user);
+<<<<<<< Updated upstream
+=======
+        Task<bool> IsUserNameTakenAsync(string userName);
+        Task<bool> IsEmailTakenAsync(string email);
+
+        // New methods for forgot password functionality
+        Task<User?> FindByEmailAndUserNameAsync(string email, string userName);
+        Task<IdentityResult> ResetPasswordAsync(User user, string newPassword);
+
+        // NEW METHOD: Get all users for admin management
+        Task<List<User>> GetAllUsersAsync();
+        Task<List<User>> GetAllUsersWithRolesAsync();
+>>>>>>> Stashed changes
     }
 }
